@@ -1,0 +1,152 @@
+Starting background process...
+Background process started with PID 16331
+[INFO] 2026-03-25 18:03:45.400 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/ankur/att
+(node:16331) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+Ignore file not found: /home/ankur/att/.geminiignore, continue without it.
+Ignore file not found: /home/ankur/att/.aiexclude, continue without it.
+Ignore file not found: /home/ankur/att/.geminiignore, continue without it.
+Ignore file not found: /home/ankur/att/.aiexclude, continue without it.
+Ignore file not found: /home/ankur/att/.geminiignore, continue without it.
+Ignore file not found: /home/ankur/att/.aiexclude, continue without it.
+Ignore file not found: /home/ankur/att/.geminiignore, continue without it.
+Ignore file not found: /home/ankur/att/.aiexclude, continue without it.
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 1250.744936
+[INFO] 2026-03-25 18:03:46.698 PM -- [Config] Using CCPA Auth:
+Loaded cached credentials.
+Experiments loaded {
+  experimentIds: [
+    106018688,
+    105979538,
+    105979560,
+    106015337,
+    105979579,
+    105867471,
+    105995634,
+    105640665,
+    104638466,
+    105704191,
+    101868197,
+    104817729,
+    105695344,
+    106064591,
+    104913215,
+    105821930,
+    104922093,
+    103012598,
+    105898505,
+    106093679,
+    105856899,
+    102617194,
+    105098746,
+    105757908,
+    104892493,
+    105723762,
+    105822884,
+    105785683,
+    105897325,
+    105658067,
+    105885552,
+    105864343,
+    105943702,
+    106106762,
+    106057393,
+    106106760,
+    105620019,
+    106115655,
+    106029321,
+    104739378,
+    105887313,
+    105849474,
+    106045721,
+    106032303,
+    106033846,
+    106054542,
+    105979531,
+    105979553,
+    106015328,
+    105867469,
+    105640661,
+    104638459,
+    105704187,
+    101551624,
+    104673683,
+    105695346,
+    106064590,
+    104913210,
+    105821928,
+    104922082,
+    103012592,
+    105885093,
+    106093677,
+    102519585,
+    105098743,
+    104892490,
+    105011762,
+    105822881,
+    105895316,
+    105658064,
+    105885549,
+    105863625,
+    105943694,
+    106057389,
+    105620012,
+    106115651,
+    106029319,
+    105887311,
+    106045719,
+    106032301,
+    106033844,
+    106031647,
+    106018685
+  ],
+  flags: [
+    {
+      flagId: '45740196',
+      boolValue: true
+    },
+    {
+      flagId: '45740197',
+      floatValue: 0.7
+    },
+    {
+      flagId: '45740199',
+      stringValue: ''
+    },
+    {
+      flagId: '45740200',
+      stringValue: "We're making changes to Gemini CLI that may impact your workflow.\n" +
+        "What's Changing: We are adding more robust detection of policy-violating use cases and changing how we prioritize traffic.\n" +
+        'How it affects you: This may result in higher capacity-related errors during periods of high traffic.\n' +
+        'Read more: https://goo.gle/geminicli-updates'
+    },
+    {
+      flagId: '45743869',
+      boolValue: true
+    },
+    {
+      flagId: '45750526',
+      boolValue: true
+    },
+    {
+      flagId: '45750527',
+      intValue: '95'
+    },
+    {
+      flagId: '45752213',
+      boolValue: true
+    },
+    {
+      flagId: '45760185',
+      boolValue: true
+    }
+  ]
+}
+[INFO] 2026-03-25 18:04:01.623 PM -- [Config] GOOGLE_CLOUD_PROJECT: inner-district-03mxt
+[INFO] 2026-03-25 18:04:01.637 PM -- Using InMemoryTaskStore
+[INFO] 2026-03-25 18:04:01.646 PM -- [CoreAgent] Agent Server started on http://localhost:42259
+[INFO] 2026-03-25 18:04:01.647 PM -- [CoreAgent] Agent Card: http://localhost:42259/.well-known/agent-card.json
+[INFO] 2026-03-25 18:04:01.647 PM -- [CoreAgent] Press Ctrl+C to stop the server

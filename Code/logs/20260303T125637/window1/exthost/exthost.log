@@ -1,0 +1,36 @@
+2026-03-03 12:56:39.038 [info] Extension host with pid 12581 started
+2026-03-03 12:56:39.038 [info] Skipping acquiring lock for /home/ankur/.config/Code/User/workspaceStorage/989a94dc30e1b7d7e0f504694f650a1e.
+2026-03-03 12:56:39.194 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-03 12:56:39.220 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-03-03 12:56:39.224 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-03 12:56:39.243 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-03-03 12:56:39.298 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:claude-code'
+2026-03-03 12:56:40.111 [info] ExtensionService#_doActivateExtension openai.chatgpt, startup: false, activationEvent: 'onChatSession:openai-codex'
+2026-03-03 12:56:40.345 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-03 12:56:40.348 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2026-03-03 12:56:40.362 [info] ExtensionService#_doActivateExtension vincaslt.highlight-matching-tag, startup: true, activationEvent: '*'
+2026-03-03 12:56:40.560 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-03 12:56:40.567 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-03 12:56:40.612 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-03 12:56:40.695 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-03-03 12:56:40.890 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-03 12:56:40.933 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-03 12:56:41.106 [info] Eager extensions activated
+2026-03-03 12:56:41.228 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.230 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.249 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.254 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.266 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.435 [info] ExtensionService#_doActivateExtension ArthurLobo.easy-codesnap, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.437 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.476 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.931 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.933 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:41.949 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:42.051 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:42.521 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:42.527 [info] ExtensionService#_doActivateExtension skyran.js-jsx-snippets, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:42.530 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 12:56:42.534 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2026-03-03 13:08:30.964 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-03 13:08:31.007 [info] Extension host with pid 12581 exiting with code 0

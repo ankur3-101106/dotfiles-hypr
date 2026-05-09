@@ -1,0 +1,7 @@
+2026-03-03 12:56:41.041 [info] Activating Codex extension
+2026-03-03 12:56:41.041 [info] [CodexMcpConnection] Spawning codex app-server
+2026-03-03 12:56:41.041 [info] [IpcRouter] I am the router
+2026-03-03 12:56:41.041 [info] [CodexMcpConnection] Initialize received (id=1)
+2026-03-03 12:56:41.041 [error] [CodexMcpConnection] CLI: string(len=449)
+2026-03-03 12:56:44.047 [error] [CodexMcpConnection] CLI: string(len=224)
+2026-03-03 12:56:44.402 [error] [CodexMcpConnection] CLI: string(len=224)

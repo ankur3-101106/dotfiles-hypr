@@ -1,0 +1,139 @@
+Starting background process...
+Background process started with PID 12982
+[INFO] 2026-03-03 12:56:45.665 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/ankur/Documents/att
+(node:12982) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 1308.7679480000002
+[INFO] 2026-03-03 12:56:47.021 PM -- [Config] Using CCPA Auth:
+Loaded cached credentials.
+Experiments loaded {
+  experimentIds: [
+    106018688,
+    105979538,
+    105979560,
+    106015337,
+    105979579,
+    105867471,
+    105995634,
+    105640665,
+    104638466,
+    105704191,
+    101868197,
+    104817729,
+    105695344,
+    106012640,
+    104913215,
+    105821930,
+    104922093,
+    103012598,
+    105898505,
+    105959757,
+    105856899,
+    102617194,
+    105098746,
+    105903990,
+    105757908,
+    104892493,
+    105723762,
+    105822884,
+    105785683,
+    105897325,
+    105658067,
+    105864343,
+    105943702,
+    106054841,
+    105620019,
+    105935281,
+    106019377,
+    106029321,
+    104739378,
+    105887313,
+    106045721,
+    106032303,
+    106033846,
+    106067761,
+    106054542,
+    105979531,
+    105979553,
+    106015328,
+    105867469,
+    105640661,
+    104638459,
+    105704187,
+    101551624,
+    104673683,
+    105695346,
+    104913210,
+    105821928,
+    104922082,
+    103012592,
+    105885093,
+    105959756,
+    102519585,
+    105098743,
+    105903988,
+    104892490,
+    105011762,
+    105822881,
+    105895316,
+    105658064,
+    105863625,
+    105943694,
+    105620012,
+    105935274,
+    106019370,
+    106029319,
+    105887311,
+    106045719,
+    106032301,
+    106033844,
+    106031647,
+    106018685
+  ],
+  flags: [
+    {
+      flagId: '45740196',
+      boolValue: true
+    },
+    {
+      flagId: '45740197',
+      floatValue: 0.7
+    },
+    {
+      flagId: '45740199',
+      stringValue: ''
+    },
+    {
+      flagId: '45740200',
+      stringValue: ''
+    },
+    {
+      flagId: '45743869',
+      boolValue: true
+    },
+    {
+      flagId: '45750526',
+      boolValue: true
+    },
+    {
+      flagId: '45750527',
+      intValue: '90'
+    },
+    {
+      flagId: '45752213',
+      boolValue: false
+    },
+    {
+      flagId: '45760185',
+      boolValue: true
+    }
+  ]
+}
+[INFO] 2026-03-03 12:56:50.695 PM -- [Config] GOOGLE_CLOUD_PROJECT: inner-district-03mxt
+[INFO] 2026-03-03 12:56:50.706 PM -- Using InMemoryTaskStore
+[INFO] 2026-03-03 12:56:50.715 PM -- [CoreAgent] Agent Server started on http://localhost:44975
+[INFO] 2026-03-03 12:56:50.715 PM -- [CoreAgent] Agent Card: http://localhost:44975/.well-known/agent-card.json
+[INFO] 2026-03-03 12:56:50.715 PM -- [CoreAgent] Press Ctrl+C to stop the server

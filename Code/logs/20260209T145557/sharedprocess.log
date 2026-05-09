@@ -1,0 +1,6 @@
+2026-02-09 14:56:27.462 [info] Getting Manifest... github.copilot-chat
+2026-02-09 14:56:27.521 [info] Installing extension: github.copilot-chat {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"}}
+2026-02-09 14:56:35.499 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 623ms.
+2026-02-09 14:56:35.813 [info] Extracted extension to file:///home/ankur/.vscode/extensions/github.copilot-chat-0.37.1: github.copilot-chat
+2026-02-09 14:56:35.834 [info] Renamed to /home/ankur/.vscode/extensions/github.copilot-chat-0.37.1
+2026-02-09 14:56:35.857 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/ankur/.vscode/extensions/extensions.json

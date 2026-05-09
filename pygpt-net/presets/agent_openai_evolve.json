@@ -1,0 +1,41 @@
+{
+    "uuid": "bfc1005f-7c86-488f-ad74-024724b4a50e",
+    "name": "Evolve",
+    "ai_name": "",
+    "ai_avatar": "",
+    "ai_personalize": false,
+    "user_name": "",
+    "prompt": "",
+    "chat": false,
+    "completion": false,
+    "img": false,
+    "assistant": false,
+    "llama_index": false,
+    "agent": false,
+    "agent_llama": false,
+    "agent_openai": true,
+    "expert": false,
+    "audio": false,
+    "research": false,
+    "computer": false,
+    "temperature": 1.0,
+    "filename": "agent_openai_evolve",
+    "model": "gpt-4o",
+    "tools": {
+        "function": []
+    },
+    "experts": [],
+    "idx": "_",
+    "agent_provider": "code_act",
+    "agent_provider_openai": "openai_agent_evolve",
+    "assistant_id": "",
+    "enabled": true,
+    "description": "",
+    "remote_tools": "",
+    "extra": {},
+    "__meta__": {
+        "version": "2.7.12",
+        "app.version": "2.7.12",
+        "updated_at": "2026-02-09T15:24:50"
+    }
+}

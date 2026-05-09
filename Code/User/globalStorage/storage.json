@@ -1,0 +1,88 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "c7e3cdfc03e97602bfa5448e76be925219a734634fafb392ea8fd35af4f35782",
+    "telemetry.devDeviceId": "c4ed2918-35ec-42f7-91f6-6eeb2789db80",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1776848273427"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/ankur/Documents/att": "__default__profile__",
+            "file:///home/ankur/att": "__default__profile__",
+            "file:///home/ankur/portfolio": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1776848273427": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 253,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/ankur/.config/Code/Backups/1776848273427",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1020,
+                "height": 618
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 254,
+            "auxiliaryBarWidth": 254,
+            "workspaces": {
+                "989a94dc30e1b7d7e0f504694f650a1e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "15130e90a0bf74120382547fc1edde58": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6ef87cd5a1c7619fd810bf4ec7b3cbfc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

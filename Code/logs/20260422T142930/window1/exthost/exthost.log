@@ -1,0 +1,38 @@
+2026-04-22 14:29:32.157 [info] Extension host with pid 29627 started
+2026-04-22 14:29:32.176 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-22 14:29:32.193 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2026-04-22 14:29:32.196 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-22 14:29:32.285 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-22 14:29:32.291 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-22 14:29:32.337 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-22 14:29:33.174 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-22 14:29:33.177 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2026-04-22 14:29:33.186 [info] ExtensionService#_doActivateExtension vincaslt.highlight-matching-tag, startup: true, activationEvent: '*'
+2026-04-22 14:29:33.224 [error] Activating extension s-nlf-fh.glassit failed due to an error:
+2026-04-22 14:29:33.224 [error] TypeError: allWindowIds is not iterable
+	at activate (/home/ankur/.vscode/extensions/s-nlf-fh.glassit-0.2.6/extension.js:65:36)
+	at Pd._callActivateOptional (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:18588)
+	at Pd._callActivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:18298)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:16272
+	at async wb._activate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:15965)
+	at async wb._waitForDepsThenActivate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:15907)
+	at async wb._initialize (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:15274)
+2026-04-22 14:29:33.225 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-22 14:29:33.256 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-22 14:29:33.368 [info] Eager extensions activated
+2026-04-22 14:29:33.369 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:33.370 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.127 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.137 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.139 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.144 [info] ExtensionService#_doActivateExtension ArthurLobo.easy-codesnap, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.145 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.168 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.475 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.476 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.484 [info] ExtensionService#_doActivateExtension openai.chatgpt, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.586 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.588 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-04-22 14:29:34.707 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-04-22 14:29:46.784 [info] Extension host terminating: received terminate message from renderer
+2026-04-22 14:29:46.807 [info] Extension host with pid 29627 exiting with code 0

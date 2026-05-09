@@ -1,0 +1,45 @@
+2026-04-21 12:07:01.981 [info] Activating Codex extension
+2026-04-21 12:07:01.981 [info] [CodexMcpConnection] Spawning codex app-server
+2026-04-21 12:07:01.981 [info] [IpcRouter] I am the router
+2026-04-21 12:07:02.193 [error] [CodexMcpConnection] cli: message="2026-04-21T06:37:02.120530Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:37:02.121836Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:37:02.123327Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:37:02.125127Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:02.194 [info] [CodexMcpConnection] Initialize received id=1
+2026-04-21 12:07:02.518 [error] [CodexMcpConnection] cli: message="2026-04-21T06:37:02.493088Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:37:02.494577Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:04.403 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:04.407 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:17.504 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:17.506 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:20.916 [info] [IpcRouter] I am the router
+2026-04-21 12:07:20.916 [info] [IpcRouter] I am the router
+2026-04-21 12:07:20.917 [warning] [IpcClient] Received broadcast but no handler is configured method=client-status-changed
+2026-04-21 12:07:21.404 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:21.405 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:21.407 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:21.409 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:21.418 [error] No promise for request ID id=5f7a9430-a962-40a2-9a7d-4057f8c6c8ef
+2026-04-21 12:07:22.817 [info] Features enabled enabledFeatures="enable_request_compression, collaboration_modes, personality, request_rule, fast_mode, tool_call_mcp_elicitation, tool_suggest, apps, plugins"
+2026-04-21 12:07:22.818 [info] [remote-connections/bootstrap] shared_object_synced connectionCount=0
+2026-04-21 12:07:22.821 [info] [startup][renderer] app routes mounted after 1849ms
+2026-04-21 12:07:23.122 [info] [remote-connections/bootstrap] shared_object_synced connectionCount=0
+2026-04-21 12:07:23.126 [info] [startup][renderer] app routes mounted after 2155ms
+2026-04-21 12:07:36.582 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:36.586 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:38.288 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:38.292 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:41.485 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:41.490 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:43.867 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:43.871 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:07:47.100 [error] [CodexMcpConnection] cli: message="2026-04-21T06:37:47.092273Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:37:47.094331Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:08:51.797 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:08:51.800 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:09:39.606 [error] [CodexMcpConnection] cli: message="2026-04-21T06:39:39.601723Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:39:39.605341Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:09:42.613 [error] [CodexMcpConnection] cli: message="2026-04-21T06:39:42.607380Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:39:42.611097Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:09:53.095 [error] [CodexMcpConnection] cli: message="2026-04-21T06:39:53.091332Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:39:53.094226Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:10:17.809 [error] [CodexMcpConnection] cli: message="2026-04-21T06:40:17.805389Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:40:17.809094Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:10:29.367 [error] [CodexMcpConnection] cli: message="2026-04-21T06:40:29.363687Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:40:29.366383Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:11:01.702 [error] [CodexMcpConnection] cli: message="2026-04-21T06:41:01.695544Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:41:01.700623Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:11:11.464 [error] [CodexMcpConnection] cli: message="2026-04-21T06:41:11.459311Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:41:11.462965Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:11:35.880 [error] [CodexMcpConnection] cli: message="2026-04-21T06:41:35.875449Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:41:35.878829Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:12:01.016 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:12:01.027 [warning] [CodexMcpConnection] cli: message="codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-21 12:12:03.831 [error] [CodexMcpConnection] cli: message="2026-04-21T06:42:03.822290Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)\n2026-04-21T06:42:03.827185Z  WARN codex_core::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"

@@ -1,0 +1,17 @@
+2026-04-21 12:07:21.263 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-04-21 12:07:21.299 [info] [test-by-project] Activating project-based testing mode
+2026-04-21 12:07:21.299 [info] [test-by-project] Discovering projects for workspace: /home/ankur/portfolio
+2026-04-21 12:07:21.299 [info] Native locator: Refresh started
+2026-04-21 12:07:21.299 [info] [test-by-project] Found 1 total Python projects from API
+2026-04-21 12:07:21.299 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-04-21 12:07:21.299 [info] [test-by-project] Creating adapter for: portfolio at file:///home/ankur/portfolio
+2026-04-21 12:07:21.303 [info] [test-by-project] Registered 1 project(s) for /home/ankur/portfolio
+2026-04-21 12:07:21.304 [info] [test-by-project] Activated 1 project(s) for /home/ankur/portfolio
+2026-04-21 12:07:21.306 [info] [test-by-project] Subscribed to Python project changes
+2026-04-21 12:07:21.322 [info] > pyenv which python
+2026-04-21 12:07:21.322 [info] cwd: .
+2026-04-21 12:07:21.326 [info] > pyenv which python
+2026-04-21 12:07:21.326 [info] cwd: .
+2026-04-21 12:07:21.547 [info] Native locator: Refresh finished in 244 ms
+2026-04-21 12:07:21.551 [info] Active interpreter [/home/ankur/portfolio]:  /usr/bin/python
+2026-04-21 12:07:24.346 [info] Starting Pylance language server.

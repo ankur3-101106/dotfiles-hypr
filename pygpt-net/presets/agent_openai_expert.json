@@ -1,0 +1,41 @@
+{
+    "uuid": "09a0b758-9d3f-47c6-a1b3-f21e95093c9f",
+    "name": "Experts agent",
+    "ai_name": "",
+    "ai_avatar": "",
+    "ai_personalize": false,
+    "user_name": "",
+    "prompt": "Handoff to the appropriate agent based on the task.",
+    "chat": false,
+    "completion": false,
+    "img": false,
+    "assistant": false,
+    "llama_index": false,
+    "agent": false,
+    "agent_llama": false,
+    "agent_openai": true,
+    "expert": false,
+    "audio": false,
+    "research": false,
+    "computer": false,
+    "temperature": 1.0,
+    "filename": "agent_openai_expert",
+    "model": "gpt-4o",
+    "tools": {
+        "function": []
+    },
+    "experts": [],
+    "idx": "_",
+    "agent_provider": "",
+    "agent_provider_openai": "openai_agent_experts",
+    "assistant_id": "",
+    "enabled": true,
+    "description": "",
+    "remote_tools": "",
+    "extra": {},
+    "__meta__": {
+        "version": "2.7.12",
+        "app.version": "2.7.12",
+        "updated_at": "2026-02-09T15:24:50"
+    }
+}

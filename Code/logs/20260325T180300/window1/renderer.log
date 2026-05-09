@@ -1,0 +1,68 @@
+2026-03-25 18:03:02.781 [info] Started local extension host with pid 11139.
+2026-03-25 18:03:02.969 [error] [/home/ankur/.vscode/extensions/github.copilot-chat-0.37.5]: This extension is using the API proposal 'chatParticipantPrivate' that is not compatible with the current version of VS Code.
+2026-03-25 18:03:03.276 [info] [ChatSessionsService] registerContribution called for type='openai-codex', canDelegate=undefined, when='undefined', extension='openai.chatgpt'
+2026-03-25 18:03:03.277 [info] [ChatSessionsService] _enableContribution: type='openai-codex', canDelegate=undefined
+2026-03-25 18:03:04.273 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/agents/appmodassessment.agent.md')
+2026-03-25 18:03:04.974 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-03-25 18:03:05.307 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-25 18:03:06.183 [info] [perf] Render performance baseline is 39ms
+2026-03-25 18:03:06.624 [error] [Extension Host] (node:11139) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-25 18:03:06.830 [info] Settings Sync: Account status changed from uninitialized to available
+2026-03-25 18:03:08.110 [info] Auto updating outdated extensions. anthropic.claude-code, github.codespaces, github.copilot-chat, google.geminicodeassist, ms-python.python, ms-python.vscode-python-envs, ms-vscode.cpp-devtools, ms-vscode.cpptools, openai.chatgpt, skyran.js-jsx-snippets, vscjava.migrate-java-to-azure, vscjava.vscode-java-upgrade, ziglang.vscode-zig
+2026-03-25 18:03:08.518 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:08.520 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:09.860 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:09.861 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:10.075 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:10.077 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:10.121 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:12.578 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:12.579 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:12.586 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:12.586 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:12.587 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:29.754 [info] Started local extension host with pid 15983.
+2026-03-25 18:03:29.956 [error] [/home/ankur/.vscode/extensions/github.copilot-chat-0.37.5]: This extension is using the API proposal 'chatParticipantPrivate' that is not compatible with the current version of VS Code.
+2026-03-25 18:03:30.940 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-25 18:03:31.237 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-03-25 18:03:31.939 [error] [Extension Host] (node:15983) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-25 18:03:31.978 [info] Settings Sync: Account status changed from uninitialized to available
+2026-03-25 18:03:32.357 [warning] Creation of workbench contribution 'workbench.contrib.chatCompatNotifier' took 105ms.
+2026-03-25 18:03:32.377 [error] CodeExpectedError: No default agent contributed
+    at hFe.activateDefaultAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2915:28390)
+2026-03-25 18:03:32.565 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:32.570 [error] [Extension Host] callClient: client not ready
+2026-03-25 18:03:32.628 [info] [perf] Render performance baseline is 36ms
+2026-03-25 18:03:33.938 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-03-25 18:03:34.023 [info] [ChatSessionsService] registerContribution called for type='openai-codex', canDelegate=undefined, when='undefined', extension='openai.chatgpt'
+2026-03-25 18:03:34.024 [info] [ChatSessionsService] _enableContribution: type='openai-codex', canDelegate=undefined
+2026-03-25 18:03:35.957 [error] [Extension Host] Ignoring inability to install OPFS sqlite3_vfs: The OPFS sqlite3_vfs cannot run in the main thread because it requires Atomics.wait().
+2026-03-25 18:03:42.648 [info] [ChatSessionsService] registerContribution called for type='claude-code', canDelegate=true, when='config.github.copilot.chat.claudeAgent.enabled', extension='GitHub.copilot-chat'
+2026-03-25 18:03:42.648 [info] [ChatSessionsService] _enableContribution: type='claude-code', canDelegate=true
+2026-03-25 18:03:42.650 [info] [ChatSessionsService] registerContribution called for type='copilotcli', canDelegate=true, when='config.github.copilot.chat.backgroundAgent.enabled', extension='GitHub.copilot-chat'
+2026-03-25 18:03:42.651 [info] [ChatSessionsService] _enableContribution: type='copilotcli', canDelegate=true
+2026-03-25 18:03:42.652 [info] [ChatSessionsService] registerContribution called for type='copilot-cloud-agent', canDelegate=true, when='config.github.copilot.chat.cloudAgent.enabled', extension='GitHub.copilot-chat'
+2026-03-25 18:03:42.652 [info] [ChatSessionsService] _enableContribution: type='copilot-cloud-agent', canDelegate=true
+2026-03-25 18:03:42.654 [info] [ChatSessionsService] registerContribution called for type='openai-codex', canDelegate=undefined, when='undefined', extension='openai.chatgpt'
+2026-03-25 18:03:42.655 [info] [ChatSessionsService] registerContribution: type='openai-codex' already registered, skipping
+2026-03-25 18:03:44.133 [error] [Extension Host] (node:15983) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-25 18:03:54.628 [error] [Extension Host] Caught an error in getRemoteRepositoriesList Error: Get "https://cloudcode-pa.googleapis.com:443/v1internal:listRemoteRepositories?alt=json&pageToken=&prettyPrint=false&project=inner-district-03mxt": Post "https://oauth2.googleapis.com/token": net/http: TLS handshake timeout
+2026-03-25 18:03:55.966 [error] [Extension Host] Unsuccessful http request to https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist. Error: request to https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: socket hang up, response: undefined
+2026-03-25 18:03:55.967 [error] [Extension Host] Fetch error with ECONNRESET
+2026-03-25 18:04:06.565 [info] Auto updating outdated extensions. google.geminicodeassist, ms-vscode.cpptools, openai.chatgpt, vscjava.migrate-java-to-azure
+2026-03-25 18:04:09.470 [error] Unknown error while installing extension vscjava.migrate-java-to-azure: Unknown: Unknown error while installing extension vscjava.migrate-java-to-azure
+    at Xs.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:2276)
+2026-03-25 18:04:31.891 [error] Unknown error while installing extension ms-vscode.cpptools: Unknown: Unknown error while installing extension ms-vscode.cpptools
+    at Xs.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:2276)
+2026-03-25 18:05:22.820 [error] Unknown error while installing extension openai.chatgpt: Unknown: Unknown error while installing extension openai.chatgpt
+    at Xs.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:2276)
+2026-03-25 18:05:31.891 [error] Unknown error while installing extension google.geminicodeassist: Unknown: Unknown error while installing extension google.geminicodeassist
+    at Xs.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:2276)
+2026-03-25 18:29:42.887 [error] Extension host (LocalProcess pid: 15983) terminated unexpectedly. The following extensions were running: vscode.github-authentication, vscode.emmet, vscode.git-base, vscode.github, vscode.debug-auto-launch, vscode.merge-conflict, alefragnani.Bookmarks, dsznajder.es7-react-js-snippets, google.geminicodeassist, vscode.configuration-editing, vscode.json-language-features, vscode.typescript-language-features, vscode.git, aaron-bond.better-comments, Anthropic.claude-code, ArthurLobo.easy-codesnap, bradlc.vscode-tailwindcss, ecmel.vscode-html-css, formulahendry.code-runner, google.gemini-cli-vscode-ide-companion, MayurDhavan.funny-error-sounds, mechatroner.rainbow-csv, openai.chatgpt, ritwickdey.LiveServer, s-nlf-fh.glassit, usernamehw.errorlens, vincaslt.highlight-matching-tag, yandeu.five-server, qwtel.sqlite-viewer, GitHub.copilot-chat, vscode.microsoft-authentication
+2026-03-25 18:29:42.888 [info] Automatically restarting the extension host.
+2026-03-25 18:29:42.951 [info] Started local extension host with pid 26538.
+2026-03-25 18:29:44.828 [error] [Extension Host] (node:26538) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-25 18:29:44.829 [error] [Extension Host] (node:26538) ExperimentalWarning: SQLite is an experimental feature and might change at any time

@@ -1,0 +1,138 @@
+2026-04-21 12:07:00.781 [info] Started local extension host with pid 47121.
+2026-04-21 12:07:00.907 [error] [/home/ankur/.vscode/extensions/github.copilot-chat-0.40.1]: This extension is using the API proposal 'chatDebug' that is not compatible with the current version of VS Code.
+2026-04-21 12:07:01.893 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-04-21 12:07:02.209 [info] Settings Sync: Account status changed from uninitialized to available
+2026-04-21 12:07:03.333 [error] CodeExpectedError: No default agent contributed
+    at e0e.activateDefaultAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:28390)
+2026-04-21 12:07:03.455 [error] [Extension Host] (node:47121) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-04-21 12:07:03.716 [info] [perf] Render performance baseline is 21ms
+2026-04-21 12:07:05.854 [info] Auto updating outdated extensions. alefragnani.bookmarks, anthropic.claude-code, arthurlobo.easy-codesnap, github.codespaces, github.copilot-chat, google.geminicodeassist, ms-python.vscode-pylance, ms-python.vscode-python-envs, ms-vscode.cmake-tools, ms-vscode.cpptools, openai.chatgpt, redhat.java, skyran.js-jsx-snippets, vscjava.migrate-java-to-azure, vscjava.vscode-java-debug, vscjava.vscode-java-dependency, vscjava.vscode-java-test, vscjava.vscode-java-upgrade, vscjava.vscode-maven
+2026-04-21 12:07:10.712 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-04-21 12:07:45.971 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+chatDebug
+chatHooks
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+inlineCompletionsAdditions
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+product.json (WINS): agentSessionsWorkspace
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+environmentPower
+terminalTitle
+DELTA: toolInvocationApproveCombination
+2026-04-21 12:07:47.011 [error] [Extension Host] (node:47121) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-04-21 12:08:36.534 [info] Auto updating outdated extensions. github.copilot-chat
+2026-04-21 12:08:58.907 [error] Cannot read the extension from /home/ankur/.vscode/extensions/github.copilot-chat-0.44.2: ScanningExtension: Cannot read the extension from /home/ankur/.vscode/extensions/github.copilot-chat-0.44.2
+    at uc.scanLocalExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:90248)
+    at async pc.doRun (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:96206)

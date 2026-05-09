@@ -1,0 +1,28 @@
+2026-02-09 14:57:20.243 [info] Started local extension host with pid 14869.
+2026-02-09 14:57:20.564 [info] MCP Registry configured: https://api.mcp.github.com
+2026-02-09 14:57:20.643 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-02-09 14:57:21.145 [error] Canceled: Canceled
+    at K1 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1281)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4183:37887
+    at Array.forEach (<anonymous>)
+    at GOt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4183:37827)
+    at iFe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4183:49484)
+    at PAn.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4190:7840)
+    at RAn.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4190:7142)
+    at async rRt.xb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4189:16672)
+2026-02-09 14:57:21.146 [warning] Failed to update in-progress status for chat session type 'claude-code': Canceled
+2026-02-09 14:57:21.146 [warning] Failed to update in-progress status for chat session type 'claude-code': Canceled
+2026-02-09 14:57:21.146 [warning] Failed to update in-progress status for chat session type 'claude-code': Canceled
+2026-02-09 14:57:21.146 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2026-02-09 14:57:21.146 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2026-02-09 14:57:21.146 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled
+2026-02-09 14:57:21.146 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-02-09 14:57:21.146 [error] Canceled: Canceled
+    at K1 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1281)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4183:37887
+    at Array.forEach (<anonymous>)
+    at GOt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4183:37827)
+    at iFe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4183:49484)
+    at PAn.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4190:7840)
+    at RAn.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4190:7142)
+    at async rRt.xb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4189:16672) Failed to load custom agents

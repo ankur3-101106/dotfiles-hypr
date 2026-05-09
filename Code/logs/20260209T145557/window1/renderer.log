@@ -1,0 +1,9 @@
+2026-02-09 14:55:58.665 [info] Started local extension host with pid 11744.
+2026-02-09 14:55:58.694 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ankur/.vscode/extensions
+2026-02-09 14:55:58.790 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ankur/.vscode/extensions
+2026-02-09 14:55:59.039 [info] MCP Registry configured: https://api.mcp.github.com
+2026-02-09 14:55:59.306 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-02-09 14:56:01.562 [info] [perf] Render performance baseline is 10ms
+2026-02-09 14:56:36.598 [error] [Extension Host] (node:11744) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-02-09 14:56:36.598 [error] [Extension Host] (node:11744) ExperimentalWarning: SQLite is an experimental feature and might change at any time

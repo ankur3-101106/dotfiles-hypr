@@ -1,0 +1,10 @@
+{
+    "_version": "2.7.12",
+    "current": "f76baba0-5471-4d1d-bf2e-2e6534af0055",
+    "profiles": {
+        "f76baba0-5471-4d1d-bf2e-2e6534af0055": {
+            "name": "Default",
+            "workdir": "%HOME%/.config/pygpt-net"
+        }
+    }
+}

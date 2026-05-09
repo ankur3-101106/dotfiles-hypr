@@ -1,0 +1,16 @@
+2026-04-22 14:27:53.783 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-22 14:27:54.036 [info] Started local extension host with pid 28821.
+2026-04-22 14:27:54.252 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-22 14:27:54.591 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-22 14:27:54.732 [info] Settings Sync: Account status changed from uninitialized to available
+2026-04-22 14:27:56.527 [error] [Extension Host] (node:28821) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-04-22 14:27:56.527 [error] [Extension Host] (node:28821) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-04-22 14:27:58.485 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-22 14:27:58.489 [error] Ignoring python.analysis.indexing.followSymlinkedFolders as python.analysis.indexing is true
+2026-04-22 14:27:59.094 [info] [perf] Render performance baseline is 22ms
+2026-04-22 14:28:31.202 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-04-22 14:29:27.745 [warning] Attempted to report in-progress status for unknown chat session type 'openai-codex'
+2026-04-22 14:29:27.746 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-04-22 14:29:27.746 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-04-22 14:29:27.746 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

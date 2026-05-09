@@ -1,0 +1,41 @@
+{
+    "uuid": "c2786f5c-86f7-402c-97c7-baa6e7b592d7",
+    "name": "*",
+    "ai_name": "",
+    "ai_avatar": "",
+    "ai_personalize": false,
+    "user_name": "",
+    "prompt": "",
+    "chat": false,
+    "completion": false,
+    "img": false,
+    "assistant": false,
+    "llama_index": false,
+    "agent": true,
+    "agent_llama": false,
+    "agent_openai": false,
+    "expert": false,
+    "audio": false,
+    "research": false,
+    "computer": false,
+    "temperature": 1.0,
+    "filename": "current.agent",
+    "model": null,
+    "tools": {
+        "function": []
+    },
+    "experts": [],
+    "idx": null,
+    "agent_provider": null,
+    "agent_provider_openai": null,
+    "assistant_id": "",
+    "enabled": true,
+    "description": "",
+    "remote_tools": [],
+    "extra": {},
+    "__meta__": {
+        "version": "2.7.12",
+        "app.version": "2.7.12",
+        "updated_at": "2026-02-09T15:24:50"
+    }
+}

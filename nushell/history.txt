@@ -1,0 +1,123 @@
+ls
+ll
+ls
+clear
+echo "I am in NuShell"
+ls
+cat
+ls
+ls -s
+ls -a
+ls | where #=35
+ls | where # = 35
+ls | where size > 1KB
+ls | where size
+ls | where size = 0
+ls
+ls -al
+-----
+ls -al
+cls
+clear
+cd .config/nushell/
+la
+ls
+nvim config.nu
+source config.nu
+nvim config.nu
+exit
+ls
+cd .config/nushell/
+ls
+nvim config.nu
+exit
+which $SHELL
+which $env.SHELL
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+ls
+cls
+clear
+exit
+ip a
+exit
+cd ..
+fish
+sudo pacman -S fish
+fish
+exit
+ls
+la
+ll
+ls
+all
+ls
+cls
+clear
+exit
+ls
+ping google.com
+ping 127.0.0.1
+clear 
+help
+ls | where size = 0
+clear
+cd .config/nushell/
+ls
+nvim config.nu
+config nu
+exit
+config nu
+cls
+ll
+la
+ls
+ls -alhA
+ls -alh
+ls -a
+ls -al
+ls -alh
+ls -ald
+alias cls=clear
+alias cls = clear
+cls
+cl
+ls
+exit
+nu
+exot
+exit
+nu
+exit
+sudo pacman -S nushell
+cls
+exit
+config nu
+config nu --doc
+cls
+exit

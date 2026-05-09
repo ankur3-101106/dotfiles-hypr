@@ -1,0 +1,8 @@
+2026-04-22 14:29:34.837 [info] Activating Codex extension
+2026-04-22 14:29:34.837 [info] [CodexMcpConnection] Spawning codex app-server
+2026-04-22 14:29:34.837 [info] [IpcRouter] I am the router
+2026-04-22 14:29:34.837 [error] [CodexMcpConnection] cli: message="2026-04-22T08:59:34.752115Z  WARN codex_core::plugins::startup_sync: startup remote plugin sync failed; will retry on next app-server start error=chatgpt authentication required to sync remote plugins\n2026-04-22T08:59:34.807015Z  WARN codex_rollout::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-22 14:29:34.837 [info] [CodexMcpConnection] Initialize received id=1
+2026-04-22 14:29:35.269 [warning] [CodexMcpConnection] cli: message="codex_rollout::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-22 14:29:36.306 [warning] [CodexMcpConnection] cli: message="codex_core::plugins::manager: failed to warm featured plugin ids cache error=remote plugin sync request to https://chatgpt.com/backend-api/plugins/featured failed with status 401 Unauthorized: {\"detail\":\"Unauthorized\"}"
+2026-04-22 14:29:36.972 [error] [CodexMcpConnection] cli: message="2026-04-22T08:59:36.956499Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: prompt must be at most 128 characters path=/home/ankur/.codex/.tmp/plugins/plugins/build-ios-apps/.codex-plugin/plugin.json\n2026-04-22T08:59:36.956820Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=/home/ankur/.codex/.tmp/plugins/plugins/plugin-eval/.codex-plugin/plugin.json"

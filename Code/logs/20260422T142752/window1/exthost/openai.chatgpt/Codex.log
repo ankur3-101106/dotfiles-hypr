@@ -1,0 +1,10 @@
+2026-04-22 14:27:57.168 [info] Activating Codex extension
+2026-04-22 14:27:57.168 [info] [CodexMcpConnection] Spawning codex app-server
+2026-04-22 14:27:57.168 [info] [IpcRouter] I am the router
+2026-04-22 14:27:57.326 [info] [CodexMcpConnection] Initialize received id=1
+2026-04-22 14:27:57.378 [warning] [CodexMcpConnection] cli: message="codex_rollout::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-22 14:27:57.723 [warning] [CodexMcpConnection] cli: message="codex_rollout::state_db: state db backfill not complete at /home/ankur/.codex (status: pending)"
+2026-04-22 14:27:59.885 [warning] [CodexMcpConnection] cli: message="codex_core::plugins::manager: failed to warm featured plugin ids cache error=remote plugin sync request to https://chatgpt.com/backend-api/plugins/featured failed with status 401 Unauthorized: {\"detail\":\"Unauthorized\"}"
+2026-04-22 14:28:07.342 [warning] [CodexMcpConnection] cli: message="codex_core::plugins::startup_sync: skipping startup remote plugin sync because curated marketplace is not ready codex_home=/home/ankur/.codex"
+2026-04-22 14:28:25.359 [warning] [CodexMcpConnection] cli: message="codex_core_plugins::manifest: ignoring interface.defaultPrompt: prompt must be at most 128 characters path=/home/ankur/.codex/.tmp/plugins/plugins/build-ios-apps/.codex-plugin/plugin.json"
+2026-04-22 14:28:25.359 [warning] [CodexMcpConnection] cli: message="codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=/home/ankur/.codex/.tmp/plugins/plugins/plugin-eval/.codex-plugin/plugin.json"

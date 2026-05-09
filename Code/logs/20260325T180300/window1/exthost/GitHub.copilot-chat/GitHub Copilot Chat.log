@@ -1,0 +1,39 @@
+2026-03-25 18:03:44.444 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-25 18:03:44.444 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-25 18:03:44.444 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-25 18:03:44.444 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-25 18:03:44.482 [info] Logged in as ankur3-101106
+2026-03-25 18:03:44.488 [info] Using the Electron fetcher.
+2026-03-25 18:04:00.718 [info] Got Copilot token for ankur3-101106
+2026-03-25 18:04:00.718 [info] Copilot Chat: 0.40.1, VS Code: 1.112.0
+2026-03-25 18:04:00.792 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-03-25 18:04:05.199 [info] ConversationFeature: Copilot token already available
+2026-03-25 18:04:05.199 [info] ConversationFeature: Activating contributions
+2026-03-25 18:04:05.199 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-03-25 18:04:05.218 [info] Registering default platform agent...
+2026-03-25 18:04:05.221 [info] activationBlocker from 'conversationFeature' took for 74ms
+2026-03-25 18:04:05.223 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-03-25 18:04:05.272 [info] activationBlocker from 'languageModelAccess' took for 119ms
+2026-03-25 18:04:05.276 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.40.1/node_modules/@github/copilot/sdk/prebuilds/linux-x64
+2026-03-25 18:04:05.276 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.40.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-03-25 18:04:05.302 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-03-25 18:04:05.418 [info] Found 1 entries to copy: pty.node
+2026-03-25 18:04:05.422 [info] Found 1 entries to copy: rg
+2026-03-25 18:04:05.423 [info] [CopilotCLI] MCP server started. Lock file: /home/ankur/.local/state/.copilot/ide/a3608bac-f7c1-4ec0-9c26-4d8a5f9955b3.lock
+2026-03-25 18:04:05.423 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-aQEaA1/mcp.sock#%2Fmcp
+2026-03-25 18:04:06.229 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-25 18:04:06.232 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-03-25 18:04:06.232 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-03-25 18:04:06.285 [info] Fetched model metadata in 1104ms cdce2e3e-cf8c-4cc9-92ca-fc47bd846b3b
+2026-03-25 18:04:06.535 [info] Latest entry: ccreq:latest.copilotmd
+2026-03-25 18:04:06.536 [info] ccreq:3943f222.copilotmd | markdown
+2026-03-25 18:29:46.186 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-03-25 18:29:46.222 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-03-25 18:29:46.222 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-03-25 18:29:46.222 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-03-25 18:29:46.227 [error] Error getting a session: Canceled: Canceled
+2026-03-25 18:29:46.265 [info] Logged in as ankur3-101106
+2026-03-25 18:29:46.272 [info] Using the Electron fetcher.
+2026-03-25 18:29:46.868 [info] Got Copilot token for ankur3-101106
+2026-03-25 18:29:46.868 [info] Copilot Chat: 0.40.1, VS Code: 1.112.0
+2026-03-25 18:29:46.940 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true

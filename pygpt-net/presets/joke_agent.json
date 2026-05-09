@@ -1,0 +1,43 @@
+{
+    "uuid": "ec7e013f-cada-4b78-8edf-3e66de32a4ff",
+    "name": "Joke Agent",
+    "ai_name": "",
+    "ai_avatar": "",
+    "ai_personalize": false,
+    "user_name": "",
+    "prompt": "",
+    "chat": false,
+    "completion": false,
+    "img": false,
+    "assistant": false,
+    "llama_index": false,
+    "agent": true,
+    "agent_llama": false,
+    "agent_openai": false,
+    "expert": false,
+    "audio": false,
+    "research": false,
+    "computer": false,
+    "temperature": 1.0,
+    "filename": "joke_agent",
+    "model": null,
+    "tools": {
+        "function": []
+    },
+    "experts": [
+        "b4bf4504-67c6-43b0-a58e-4cdf5f609589"
+    ],
+    "idx": null,
+    "agent_provider": null,
+    "agent_provider_openai": null,
+    "assistant_id": "",
+    "enabled": true,
+    "description": "",
+    "remote_tools": [],
+    "extra": {},
+    "__meta__": {
+        "version": "2.7.12",
+        "app.version": "2.7.12",
+        "updated_at": "2026-02-09T15:24:50"
+    }
+}

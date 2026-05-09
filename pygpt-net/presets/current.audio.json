@@ -1,0 +1,41 @@
+{
+    "uuid": "9e6b1ef4-24f8-4fe7-b8a8-b71f73daf14d",
+    "name": "*",
+    "ai_name": "",
+    "ai_avatar": "",
+    "ai_personalize": false,
+    "user_name": "",
+    "prompt": "",
+    "chat": false,
+    "completion": false,
+    "img": false,
+    "assistant": false,
+    "llama_index": false,
+    "agent": false,
+    "agent_llama": false,
+    "agent_openai": false,
+    "expert": false,
+    "audio": true,
+    "research": false,
+    "computer": false,
+    "temperature": 1.0,
+    "filename": "current.audio",
+    "model": null,
+    "tools": {
+        "function": []
+    },
+    "experts": [],
+    "idx": null,
+    "agent_provider": null,
+    "agent_provider_openai": null,
+    "assistant_id": "",
+    "enabled": true,
+    "description": "",
+    "remote_tools": [],
+    "extra": {},
+    "__meta__": {
+        "version": "2.7.12",
+        "app.version": "2.7.12",
+        "updated_at": "2026-02-09T15:24:50"
+    }
+}

@@ -1,0 +1,25 @@
+2026-03-03 12:56:38.412 [info] Started local extension host with pid 12581.
+2026-03-03 12:56:39.634 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2026-03-03 12:56:40.112 [error] [Extension Host] (node:12581) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-03 12:56:40.112 [error] [Extension Host] (node:12581) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2026-03-03 12:56:40.142 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-03 12:56:40.413 [info] Settings Sync: Account status changed from uninitialized to available
+2026-03-03 12:56:41.148 [info] [perf] Render performance baseline is 36ms
+2026-03-03 12:56:43.273 [info] Auto updating outdated extensions. anthropic.claude-code, ecmel.vscode-html-css, github.copilot-chat, google.geminicodeassist, ms-python.python, ms-python.vscode-pylance, ms-python.vscode-python-envs, ms-vscode.cmake-tools, ms-vscode.cpptools, ms-vscode.cpptools-extension-pack, openai.chatgpt, redhat.java, ritwickdey.liveserver, vscjava.migrate-java-to-azure, vscjava.vscode-java-upgrade
+2026-03-03 12:56:43.751 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:43.751 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:44.831 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md')
+2026-03-03 12:56:44.837 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md')
+2026-03-03 12:56:44.846 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md')
+2026-03-03 12:56:44.852 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:44.861 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:44.936 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:44.937 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:44.985 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:47.004 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:47.005 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:47.010 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:47.010 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:47.011 [error] [Extension Host] callClient: client not ready
+2026-03-03 12:56:52.104 [warning] [computeCustomAgents] Skipping agent file that does not exist: file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md Unable to read file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.12.1-linux-x64/agents/appmodassessment.agent.md')

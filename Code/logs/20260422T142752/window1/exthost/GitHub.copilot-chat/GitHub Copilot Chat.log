@@ -1,0 +1,31 @@
+2026-04-22 14:27:57.168 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-04-22 14:27:57.168 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-04-22 14:27:57.168 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-04-22 14:27:57.168 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-04-22 14:27:57.333 [info] Logged in as ankur3-101106
+2026-04-22 14:27:57.337 [info] Using the Electron fetcher.
+2026-04-22 14:28:00.210 [info] Got Copilot token for ankur3-101106
+2026-04-22 14:28:00.210 [info] Copilot Chat: 0.44.2, VS Code: 1.116.0
+2026-04-22 14:28:00.249 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-04-22 14:28:07.200 [info] ConversationFeature: Copilot token already available
+2026-04-22 14:28:07.200 [info] ConversationFeature: Activating contributions
+2026-04-22 14:28:07.200 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-04-22 14:28:07.214 [info] Registering default platform agent...
+2026-04-22 14:28:07.218 [info] activationBlocker from 'conversationFeature' took for 49ms
+2026-04-22 14:28:07.219 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-04-22 14:28:07.254 [info] activationBlocker from 'languageModelAccess' took for 84ms
+2026-04-22 14:28:07.257 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.44.2/node_modules/@github/copilot/sdk/prebuilds/linux-x64
+2026-04-22 14:28:07.257 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.44.2/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-04-22 14:28:07.324 [info] Found 1 entries to copy: pty.node
+2026-04-22 14:28:07.341 [info] [CopilotCLI] MCP server started. Lock file: /home/ankur/.local/state/.copilot/ide/e4256c1b-e65e-444f-ae37-d1318447a750.lock
+2026-04-22 14:28:07.341 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-ravqp4/mcp.sock#%2Fmcp
+2026-04-22 14:28:07.341 [info] Found 1 entries to copy: rg
+2026-04-22 14:28:07.752 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-04-22 14:28:08.562 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-04-22 14:28:09.005 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-04-22 14:28:09.010 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-04-22 14:28:09.010 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-04-22 14:28:18.239 [info] Fetched model metadata in 11052ms e5e1de76-e280-47b3-822c-c0db82df83a6
+2026-04-22 14:28:18.249 [error] [CopilotCLI] Error fetching copilot user: TypeError: fetch failed
+2026-04-22 14:28:19.052 [info] Latest entry: ccreq:latest.copilotmd
+2026-04-22 14:28:19.053 [info] ccreq:3e2b58b4.copilotmd | markdown

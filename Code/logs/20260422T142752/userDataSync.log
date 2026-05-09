@@ -1,0 +1,132 @@
+2026-04-22 14:27:54.224 [info] [AutoSync] Using settings sync service https://vscode-sync.trafficmanager.net/
+2026-04-22 14:27:54.224 [info] [AutoSync] Enabled.
+2026-04-22 14:27:54.224 [info] [AutoSync] Suspended until auth token is available.
+2026-04-22 14:27:54.712 [info] [AutoSync] Triggered by Interval
+2026-04-22 14:27:54.712 [info] Sync started.
+2026-04-22 14:28:00.039 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:28:00.045 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:28:00.050 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:28:00.052 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:28:00.054 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:28:03.344 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2,colorThemeData,typescript.1.lastSessionDate,typescript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2026-04-22 14:28:03.363 [info] GlobalState: Updated last synchronized ui state
+2026-04-22 14:28:04.166 [info] [AutoSync] Suspended because connection is metered.
+2026-04-22 14:28:04.166 [info] [AutoSync] Cancelled sync that is in progress
+2026-04-22 14:28:04.167 [info] [AutoSync] Stopped
+2026-04-22 14:28:04.170 [error] Canceled: Canceled
+    at Jo.value (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:90108)
+    at w._deliver (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3044)
+    at w.fire (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3362)
+    at Xo.cancel (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:6443)
+    at gt.cancel (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:6981)
+    at Object.cancel (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:90262)
+    at Object.stop (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:478:156578)
+    at km._fn (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:491:11281)
+    at km.dispose (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:1202)
+    at Gt (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:689)
+    at o.clear (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:1518)
+    at o.dispose (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:1428)
+    at o.dispose (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:2314)
+    at set value (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:2605)
+    at At.clear (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:2662)
+    at ja.updateAutoSync (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:491:5290)
+    at Jo.value (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:491:4233)
+    at w._deliver (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3044)
+    at w.fire (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3362)
+    at Jo.value (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:498:71517)
+    at w._deliver (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3044)
+    at w.fire (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3362)
+    at w._deliver (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3044)
+    at w.fire (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3362)
+    at c (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:406:886)
+    at as.onResponse (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:406:1798)
+    at as.onBuffer (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:406:1653)
+    at Jo.value (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:405:1635)
+    at w._deliver (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3044)
+    at w._deliverQueue (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3133)
+    at w.fire (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:404:3467)
+    at MessagePortMain.H (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:402:12712)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-04-22 14:28:04.175 [info] Extensions: Stopped synchronizing extensions.
+2026-04-22 14:28:04.943 [info] Extensions: Updated remote extensions. Updated: ["alefragnani.bookmarks"].
+2026-04-22 14:28:04.961 [info] Extensions: Updated last synchronized extensions.
+2026-04-22 14:28:44.599 [info] [AutoSync] Triggered by Interval
+2026-04-22 14:28:44.600 [info] Sync started.
+2026-04-22 14:28:45.065 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:28:45.070 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:28:45.078 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:28:45.081 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:28:45.084 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:28:45.091 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:28:47.162 [info] Extensions: Updated remote extensions. Removed: ["yandeu.five-server","redhat.java","vscjava.migrate-java-to-azure"].
+2026-04-22 14:28:47.180 [info] Extensions: Updated last synchronized extensions.
+2026-04-22 14:28:47.188 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:28:47.190 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:28:47.192 [info] Sync done. Took 2594ms
+2026-04-22 14:28:47.750 [info] [AutoSync] Triggered by Activity
+2026-04-22 14:28:47.751 [info] Sync started.
+2026-04-22 14:28:48.523 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:28:48.526 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:28:48.529 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:28:48.531 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:28:48.532 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:28:48.535 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:28:48.575 [info] Extensions: No changes found during synchronizing extensions.
+2026-04-22 14:28:48.578 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:28:48.579 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:28:48.579 [info] Sync done. Took 829ms
+2026-04-22 14:28:51.473 [info] [AutoSync] Suspended because connection is metered.
+2026-04-22 14:28:51.473 [info] [AutoSync] Stopped
+2026-04-22 14:28:57.717 [info] [AutoSync] Triggered by Interval
+2026-04-22 14:28:57.718 [info] Sync started.
+2026-04-22 14:28:58.144 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:28:58.149 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:28:58.158 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:28:58.162 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:28:58.165 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:29:01.775 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2.
+2026-04-22 14:29:01.793 [info] GlobalState: Updated last synchronized ui state
+2026-04-22 14:29:11.017 [info] Extensions: Updated remote extensions. Added: ["vscjava.migrate-java-to-azure"]. Removed: ["vscjava.vscode-java-dependency","vscjava.vscode-java-debug","mark-wiemer.vscode-autohotkey-plus-plus"].
+2026-04-22 14:29:11.035 [info] Extensions: Updated last synchronized extensions.
+2026-04-22 14:29:11.041 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:29:11.043 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:29:11.045 [info] Sync done. Took 13329ms
+2026-04-22 14:29:11.047 [info] [AutoSync] Triggered by Activity
+2026-04-22 14:29:11.047 [info] Sync started.
+2026-04-22 14:29:11.302 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:29:11.304 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:29:11.308 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:29:11.310 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:29:11.311 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:29:11.315 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:29:12.706 [info] Extensions: Updated remote extensions. Removed: ["vscjava.vscode-java-pack","vscjava.vscode-java-test","vscjava.vscode-maven"].
+2026-04-22 14:29:12.724 [info] Extensions: Updated last synchronized extensions.
+2026-04-22 14:29:12.728 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:29:12.730 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:29:12.732 [info] Sync done. Took 1686ms
+2026-04-22 14:29:12.733 [info] [AutoSync] Triggered by Activity
+2026-04-22 14:29:12.733 [info] Sync started.
+2026-04-22 14:29:12.982 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:29:12.986 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:29:12.990 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:29:12.992 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:29:12.994 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:29:12.997 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:29:13.028 [info] Extensions: No changes found during synchronizing extensions.
+2026-04-22 14:29:13.030 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:29:13.031 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:29:13.031 [info] Sync done. Took 299ms
+2026-04-22 14:29:20.473 [info] [AutoSync] Triggered by Activity
+2026-04-22 14:29:20.473 [info] Sync started.
+2026-04-22 14:29:20.980 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:29:20.982 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:29:20.986 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:29:20.988 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:29:20.989 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:29:20.991 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:29:22.605 [info] Extensions: Updated remote extensions. Removed: ["vscjava.vscode-java-upgrade"].
+2026-04-22 14:29:22.622 [info] Extensions: Updated last synchronized extensions.
+2026-04-22 14:29:22.628 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:29:22.629 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:29:22.630 [info] Sync done. Took 2158ms

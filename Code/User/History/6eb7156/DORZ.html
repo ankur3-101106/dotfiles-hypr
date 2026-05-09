@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Attendance System</title>
+    <!-- Icons -->
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --secondary: #64748b;
+            --bg-body: #f1f5f9;
+            --bg-card: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --info: #3b82f6;
+            --border: #e2e8f0;
+            --radius: 8px;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 260px;
+            background: var(--bg-card);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            position: fixed;
+            height: 100vh;
+            z-index: 10;
+            transition: transform 0.3s ease;
+        }
+
+        .brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .nav-item {
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius);
+            cursor: pointer;
+            color: var(--text-muted);
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s;
+        }
+
+        .nav-item:hover {
+            background-color: #f8fafc;
+            color: var(--primary);
+        }
+
+        .nav-item.active {
+            background-color: #eef2ff;
+            color: var(--primary);
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            margin-left: 260px;
+            padding: 2rem;
+            max-width: 1600px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+        }
+
+        .btn {
+            padding: 0.6rem 1.2rem;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn:hover { opacity: 0.9; }
+        
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-danger { background: var(--danger); color: white; }
+        .btn-outline { background: transparent; border: 1px solid var(--border); color: 
+var(--text-main); }
+        .btn-sm { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
+
+        /* Views */
+        .view { display: none; }
+        .view.active { display: block; }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+
+        .stat-card h3 {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        /* Tables */
+        .table-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .toolbar {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .date-picker {
+            padding: 0.5rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text-main);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 1rem 1.5rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: #f8fafc;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        tr:last-child td { border-bottom: none; }
+        tr:hover { background-color: #f8fafc; }
+
+        /* Attendance Radio Chips */
+        .attendance-options {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .radio-label {
+            cursor: pointer;
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        /* Hide actual radio inputs */
+        .status-input { display: none; }
+
+        /* Checked States */
+        .status-input[value="present"]:checked + .radio-label {
+            background-color: #d1fae5;
+            color: #065f46;
+            border-color: #d1fae5;
+        }
+        .status-input[value="absent"]:checked + .radio-label {
+            background-color: #fee2e2;
+            color: #991b1b;
+            border-color: #fee2e2;
+        }
+        .status-input[value="late"]:checked + .radio-label {
+            background-color: #fef3c7;
+            color: #92400e;
+            border-color: #fef3c7;
+        }
+        .status-input[value="excused"]:checked + .radio-label {
+            background-color: #e0f2fe;
+            color: #075985;
+            border-color: #e0f2fe;
+        }
+
+        /* Modals */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+
+        .modal-overlay.open { opacity: 1; visibility: visible; }
+
+        .modal {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: var(--radius);
+            width: 100%;
+            max-width: 450px;
+            transform: translateY(20px);
+            transition: transform 0.3s;
+        }
+
+        .modal-overlay.open .modal { transform: translateY(0); }
+
+        .modal h2 { margin-bottom: 1.5rem; }
+
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; }
+        .form-control {
+            width: 100%;
+            padding: 0.6rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Toast Notifications */
+        .toast-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 200;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toast {
+            padding: 1rem 1.5rem;
+            background: #333;
+            color: white;
+            border-radius: var(--radius);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            animation: slideIn 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            min-width: 250px;
+        }
+
+        .toast.success { background: var(--success); }
+        .toast.error { background: var(--danger); }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .sidebar { transform: translateX(-100%); width: 240px; }
+            .sidebar.show { transform: translateX(0); }
+            .main-content { margin-left: 0; }
+            .mobile-toggle { display: block; }
+        }
+
+        @media (min-width: 769px) {
+            .mobile-toggle { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="brand">
+            <i class="fa-solid fa-clipboard-user"></i> AttendEase
+        </div>
+        <ul class="nav-links">
+            <li class="nav-item active" onclick="switchView('dashboard')">
+                <i class="fa-solid fa-chart-pie"></i> Dashboard
+            </li>
+            <li class="nav-item" onclick="switchView('attendance')">
+                <i class="fa-solid fa-user-check"></i> Take Attendance
+            </li>
+            <li class="nav-item" onclick="switchView('students')">
+                <i class="fa-solid fa-users"></i> Students
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header>
+            <button class="btn btn-outline mobile-toggle" onclick="toggleSidebar()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <h1 id="page-title">Dashboard</h1>
+            <div id="header-actions"></div>
+        </header>
+
+        <!-- DASHBOARD VIEW -->
+        <section id="dashboard" class="view active">
+            <div class="stats-grid">
+                <div class="card stat-card">
+                    <h3>Total Students</h3>
+                    <div class="value" id="total-students">0</div>
+                </div>
+                <div class="card stat-card">
+                    <h3>Average Attendance</h3>
+                    <div class="value" id="avg-attendance">0%</div>
+                </div>
+                <div class="card stat-card">
+                    <h3>Total Records</h3>
+                    <div class="value" id="total-records">0</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Recent Activity</h3>
+                <div style="margin-top: 1rem; color: var(--text-muted);">
+                    <p id="last-updated-msg">System initialized. No data yet.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ATTENDANCE VIEW -->
+        <section id="attendance" class="view">
+            <div class="card table-container">
+                <div class="toolbar">
+                    <div>
+                        <label for="attendance-date" style="font-weight: 500; margin-right: 
+0.5rem;">Date:</label>
+                        <input type="date" id="attendance-date" class="date-picker" 
+onchange="loadAttendanceForDate()">
+                    </div>
+                    <div>
+                        <button class="btn btn-outline btn-sm" onclick="markAll('present')">Mark 
+All Present</button>
+                        <button class="btn btn-primary" onclick="saveAttendance()">
+                            <i class="fa-solid fa-save"></i> Save Records
+                        </button>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendance-list">
+                        <!-- Rows generated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- STUDENTS VIEW -->
+        <section id="students" class="view">
+            <div class="card table-container">
+                <div class="toolbar">
+                    <h3>Student List</h3>
+                    <button class="btn btn-primary" onclick="openModal('add-student-modal')">
+                        <i class="fa-solid fa-plus"></i> Add Student
+                    </button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="students-list">
+                        <!-- Rows generated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Add Student Modal -->
+    <div class="modal-overlay" id="add-student-modal">
+        <div class="modal">
+            <h2>Add New Student</h2>
+            <form id="add-student-form" onsubmit="handleAddStudent(event)">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="student-name" class="form-control" required 
+placeholder="e.g. John Doe">
+                </div>
+                <div class="form-group">
+                    <label>Roll Number / ID</label>
+                    <input type="text" id="student-roll" class="form-control" required 
+placeholder="e.g. 101">
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-outline" 
+onclick="closeModal('add-student-modal')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add Student</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div class="modal-overlay" id="delete-modal">
+        <div class="modal">
+            <h2>Confirm Delete</h2>
+            <p>Are you sure you want to remove this student? This action cannot be undone.</p>
+            <div class="modal-actions">
+                <button class="btn btn-outline" 
+onclick="closeModal('delete-modal')">Cancel</button>
+                <button class="btn btn-danger" 
+id="confirm-delete-btn">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script>
+        // --- DATA MANAGEMENT ---
+        const STORAGE_KEY = 'ams_data_v1';
+        
+        // Initial State Structure
+        let appData = {
+            students: [], // Array of { id, name, roll }
+            attendance: {} // Object: { "YYYY-MM-DD": { studentId: "status" } }
+        };
+
+        // Load data on startup
+        function loadData() {
+            const stored = localStorage.getItem(STORAGE_KEY);
+            if (stored) {
+                appData = JSON.parse(stored);
+            }
+            // Initialize a default list if empty for demo purposes (optional)
+            if (appData.students.length === 0) {
+                // appData.students = [
+                //     { id: 1, name: "Alice Johnson", roll: "001" },
+                //     { id: 2, name: "Bob Smith", roll: "002" }
+                // ];
+                // saveData();
+            }
+            updateDashboard();
+        }
+
+        function saveData() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(appData));
+            updateDashboard();
+        }
+
+        // --- NAVIGATION ---
+        function switchView(viewId) {
+            // Update Tab Styles
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            // Find the nav item that calls this view (approximate logic)
+            const navItems = document.querySelectorAll('.nav-item');
+            if(viewId === 'dashboard') navItems[0].classList.add('active');
+            if(viewId === 'attendance') navItems[1].classList.add('active');
+            if(viewId === 'students') navItems[2].classList.add('active');
+
+            // Switch Content
+            document.querySelectorAll('.view').forEach(el => el.classList.remove('active'));
+            document.getElementById(viewId).classList.add('active');
+
+            // Update Title
+            const titles = {
+                'dashboard': 'Dashboard',
+                'attendance': 'Take Attendance',
+                'students': 'Student Management'
+            };
+            document.getElementById('page-title').textContent = titles[viewId];
+
+            // View specific actions
+            if (viewId === 'attendance') {
+                // Set date to today if not set
+                const dateInput = document.getElementById('attendance-date');
+                if (!dateInput.value) dateInput.valueAsDate = new Date();
+                loadAttendanceForDate();
+            } else if (viewId === 'students') {
+                renderStudentsList();
+            }
+
+            // Close mobile sidebar if open
+            document.getElementById('sidebar').classList.remove('show');
+        }
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('show');
+        }
+
+        // --- STUDENT MANAGEMENT ---
+        function handleAddStudent(e) {
+            e.preventDefault();
+            const name = document.getElementById('student-name').value;
+            const roll = document.getElementById('student-roll').value;
+
+            const newStudent = {
+                id: Date.now(), // Simple unique ID
+                name: name,
+                roll: roll
+            };
+
+            appData.students.push(newStudent);
+            saveData();
+            
+            // Reset and Close
+            document.getElementById('add-student-form').reset();
+            closeModal('add-student-modal');
+            
+            if(document.getElementById('students').classList.contains('active')) {
+                renderStudentsList();
+            }
+            
+            showToast('Student added successfully', 'success');
+        }
+
+        let studentToDeleteId = null;
+
+        function promptDelete(id) {
+            studentToDeleteId = id;
+            openModal('delete-modal');
+        }
+
+        document.getElementById('confirm-delete-btn').addEventListener('click', () => {
+            if (studentToDeleteId) {
+                appData.students = appData.students.filter(s => s.id !== studentToDeleteId);
+                // Optional: Cleanup attendance records for this student?
+                // For simplicity, we keep old records but they won't show up.
+                saveData();
+                renderStudentsList();
+                closeModal('delete-modal');
+                showToast('Student removed', 'success');
+            }
+        });
+
+        function renderStudentsList() {
+            const tbody = document.getElementById('students-list');
+            tbody.innerHTML = '';
+
+            if (appData.students.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="3" style="text-align:center; color: 
+var(--text-muted);">No students found. Add one to get started.</td></tr>';
+                return;
+            }
+
+            appData.students.forEach(student => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${escapeHtml(student.roll)}</td>
+                    <td>${escapeHtml(student.name)}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" 
+onclick="promptDelete(${student.id})">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // --- ATTENDANCE LOGIC ---
+        function loadAttendanceForDate() {
+            const date = document.getElementById('attendance-date').value;
+            const tbody = document.getElementById('attendance-list');
+            tbody.innerHTML = '';
+
+            if (appData.students.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="3" style="text-align:center;">Please add students first.</td></tr>';
+                return;
+            }
+
+            // Get existing record for this date or empty object
+            const daysRecord = appData.attendance[date] || {};
+
+            appData.students.forEach(student => {
+                const status = daysRecord[student.id] || null; // Default null (not taken)
+                
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${escapeHtml(student.roll)}</td>
+                    <td>${escapeHtml(student.name)}</td>
+                    <td>
+                        <div class="attendance-options">
+                            <label>
+                                <input type="radio" name="status-${student.id}" value="present" 
+class="status-input" ${status === 'present' ? 'checked' : ''}>
+                                <span class="radio-label">Present</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="status-${student.id}" value="absent" 
+class="status-input" ${status === 'absent' ? 'checked' : ''}>
+                                <span class="radio-label">Absent</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="status-${student.id}" value="late" 
+class="status-input" ${status === 'late' ? 'checked' : ''}>
+                                <span class="radio-label">Late</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="status-${student.id}" value="excused" 
+class="status-input" ${status === 'excused' ? 'checked' : ''}>
+                                <span class="radio-label">Excused</span>
+                            </label>
+                        </div>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function markAll(status) {
+            const radios = document.querySelectorAll(`input[type="radio"][value="${status}"]`);
+            radios.forEach(r => r.checked = true);
+        }
+
+        function saveAttendance() {
+            const date = document.getElementById('attendance-date').value;
+            if (!date) {
+                showToast('Please select a date first', 'error');
+                return;
+            }
+
+            const daysRecord = {};
+            let count = 0;
+
+            appData.students.forEach(student => {
+                const checked = 
+document.querySelector(`input[name="status-${student.id}"]:checked`);
+                if (checked) {
+                    daysRecord[student.id] = checked.value;
+                    count++;
+                }
+            });
+
+            if (count === 0) {
+                showToast('No attendance marked for this date.', 'error');
+                return;
+            }
+
+            appData.attendance[date] = daysRecord;
+            saveData();
+            showToast('Attendance saved successfully!', 'success');
+        }
+
+        // --- DASHBOARD LOGIC ---
+        function updateDashboard() {
+            // 1. Total Students
+            document.getElementById('total-students').textContent = appData.students.length;
+
+            // 2. Total Records (Days with data)
+            const daysWithRecords = Object.keys(appData.attendance).length;
+            document.getElementById('total-records').textContent = daysWithRecords;
+
+            // 3. Average Attendance % calculation
+            if (daysWithRecords === 0 || appData.students.length === 0) {
+                document.getElementById('avg-attendance').textContent = "0%";
+                document.getElementById('last-updated-msg').textContent = daysWithRecords === 0 ? 
+"No records taken yet." : "System ready.";
+                return;
+            }
+
+            let totalPresent = 0;
+            let totalPossible = 0;
+
+            // Iterate over all dates
+            for (const date in appData.attendance) {
+                const record = appData.attendance[date];
+                // For every student that exists in the record (to handle adding students later)
+                // Or simply count current students? 
+                // Simplest approach: Count every status recorded.
+                
+                for (const studentId in record) {
+                    const status = record[studentId];
+                    if (status === 'present' || status === 'late') {
+                        totalPresent++;
+                    }
+                    totalPossible++;
+                }
+            }
+
+            const avg = Math.round((totalPresent / totalPossible) * 100) || 0;
+            document.getElementById('avg-attendance').textContent = avg + "%";
+
+            // Find last updated date
+            const dates = Object.keys(appData.attendance).sort().reverse();
+            if(dates.length > 0) {
+                document.getElementById('last-updated-msg').textContent = `Last updated on: 
+${dates[0]}`;
+            }
+        }
+
+        // --- UTILS ---
+        function openModal(id) {
+            document.getElementById(id).classList.add('open');
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('open');
+        }
+
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            
+            let icon = type === 'success' ? 'fa-check-circle' : (type === 'error' ? 
+'fa-exclamation-circle' : 'fa-info-circle');
+            
+            toast.innerHTML = `<i class="fa-solid ${icon}"></i> <span>${message}</span>`;
+            
+            container.appendChild(toast);
+
+            // Remove after 3 seconds
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateX(100%)';
+                toast.addEventListener('transitionend', () => toast.remove());
+            }, 3000);
+        }
+
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+
+        // --- INITIALIZATION ---
+        window.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            // Start at dashboard
+            switchView('dashboard');
+        });
+
+        // Close modal when clicking outside
+        document.querySelectorAll('.modal-overlay').forEach(overlay => {
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    overlay.classList.remove('open');
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

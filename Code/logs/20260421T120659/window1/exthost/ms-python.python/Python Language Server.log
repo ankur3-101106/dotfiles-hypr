@@ -1,0 +1,20 @@
+2026-04-21 12:07:23.314 [info] Client: Pylance client (2026.1.1) started with python extension (2026.4.0)
+2026-04-21 12:07:23.685 [info] (48465): Server root directory: file:///home/ankur/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-04-21 12:07:23.685 [info] (48465): Pylance language server 2026.1.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-04-21 12:07:23.689 [info] (48465): Starting service instance "portfolio" for workspace "/home/ankur/portfolio"
+2026-04-21 12:07:24.339 [info] (48465): Loading background bundle file:///home/ankur/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist/copilot-background.bundle.js into file:///home/ankur/portfolio...
+2026-04-21 12:07:24.418 [info] (48465): Starting Mcp server id:4081 ...
+2026-04-21 12:07:24.432 [info] (48465): FG(portfolio): Setting environmentName for service "portfolio": "Python 3.14.3"
+2026-04-21 12:07:24.432 [info] (48465): FG(portfolio): Setting pythonPath for service "portfolio": "/usr/bin/python"
+2026-04-21 12:07:24.432 [info] (48465): FG(portfolio): No include entries specified; assuming /home/ankur/portfolio
+2026-04-21 12:07:24.433 [info] (48465): FG(portfolio): Auto-excluding **/node_modules
+2026-04-21 12:07:24.433 [info] (48465): FG(portfolio): Auto-excluding **/__pycache__
+2026-04-21 12:07:24.433 [info] (48465): FG(portfolio): Auto-excluding **/.*
+2026-04-21 12:07:24.460 [info] (48465): FG(portfolio): Assuming Python version 3.14.3.final.0
+2026-04-21 12:07:24.521 [info] (48465): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-04-21 12:07:24.527 [info] (48465): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-04-21 12:07:24.534 [info] (48465): FG(portfolio): No source files found.
+2026-04-21 12:07:24.538 [info] (48465): Settings have not changed. Skipping update.
+2026-04-21 12:07:24.543 [info] (48465): Settings have not changed. Skipping update.
+2026-04-21 12:07:24.721 [info] (48465): PQ(portfolio): Priority queue background worker(2) root directory: file:///home/ankur/.vscode/extensions/ms-python.vscode-pylance-2026.1.1/dist
+2026-04-21 12:07:24.722 [info] (48465): PQ(portfolio): Priority queue background worker(2) started

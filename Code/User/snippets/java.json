@@ -1,0 +1,157 @@
+{
+	// Place your snippets for java here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"System.out.println for text": {
+		"prefix": "sot",
+		"body": [
+			"System.out.println(\"${1:}\");"
+		],
+		"description": "Print to console"
+	},
+	"System.out.print":{
+		"prefix": "sop",
+		"body": [
+			"System.out.print(\"${1:}\");"
+		],
+		"description": "Print to console without newline"
+	},
+	"System.out.println for variable with text": {
+		"prefix": "sovt",
+		"body": [
+			"System.out.println(\"${1:} \" + ${2:});"
+		],
+		"description": "Print variable with text to console"
+	},
+	"System.out.println for variable": {
+		"prefix": "sov",
+		"body": [
+			"System.out.println(${1:});"
+		],
+		"description": "Print variable to console"
+	},
+	"Print formatted string": {
+		"prefix": "printf",
+		"body": [
+			"System.out.printf(\"${1:} %${2:}\", ${3:args});"
+		],
+		"description": "Print formatted string to console"
+	},
+	"Main method": {
+		"prefix": "main",
+		"body": [
+			"public static void main(String[] args) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Main method"
+	},
+	"Class definition": {
+		"prefix": "class",
+		"body": [
+			"public class ${1:} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Class definition"
+	},
+	"Method definition": {
+		"prefix": "method",
+		"body": [
+			"public ${1:void} ${2:methodName}(${3:Type param}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Method definition"
+	},
+	"Import statement": {
+		"prefix": "import",
+		"body": [
+			"import ${1:package.name};"
+		],
+		"description": "Import statement"
+	},
+	"Try-catch block": {
+		"prefix": "trycatch",
+		"body": [
+			"try {",
+			"\t$0",
+			"} catch (${1:Exception e}) {",
+			"\te.printStackTrace();",
+			"}"
+		],
+		"description": "Try-catch block"
+	},
+	"Enhanced for loop": {
+		"prefix": "for",
+		"body": [
+			"for (${1:Type item} : ${2:collection}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Enhanced for loop"
+	},
+	"Array declaration": {
+		"prefix": "array",
+		"body": [
+			"${1:}[] ${2:} = new ${2:}[$3];",
+			"$0"
+		],
+		"description": "Array declaration"
+	},
+	"Lambda expression": {
+		"prefix": "lambda",
+		"body": [
+			"(${1:Type param}) -> {",
+			"\t$0",
+			"}"
+		],
+		"description": "Lambda expression"
+	},
+	"Switch statement": {
+		"prefix": "switch",
+		"body": [
+			"switch (${1:variable}) {",
+			"\tcase ${2:value}:",
+			"\t\t$3",
+			"\t\tbreak;",
+			"\tdefault:",
+			"\t\t$4",
+			"}"
+		],
+		"description": "Switch statement"
+	},
+	"Getter and Setter": {
+		"prefix": "gettersetter",
+		"body": [
+			"public ${1:Type} get${2:FieldName}() {",
+			"\treturn this.${2:fieldName};",
+			"}",
+			"",
+			"public void set${2:FieldName}(${1:Type} ${2:fieldName}) {",
+			"\tthis.${2:fieldName} = ${2:fieldName};",
+			"}"
+		],
+		"description": "Getter and Setter methods"
+	},
+	"Constructor": {
+		"prefix": "constructor",
+		"body": [
+			"public ${1:ClassName}(${2:Type param}) {",
+			"\tthis.${3:param} = ${3:param};",
+			"\t$0",
+			"}"
+		],
+		"description": "Constructor definition"
+	},
+}

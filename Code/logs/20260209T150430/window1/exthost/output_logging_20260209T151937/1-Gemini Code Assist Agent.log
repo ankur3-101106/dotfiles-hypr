@@ -1,0 +1,147 @@
+Starting background process...
+Background process started with PID 39862
+[INFO] 2026-02-09 15:19:39.663 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/ankur/Documents/att
+(node:39862) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[ERROR] 2026-02-09 15:19:39.705 PM -- [CoreAgent] Error during startup: Failed to initialize checkpointing: Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ankur@arch.(none)')
+. Please check that Git is working properly or disable checkpointing.
+{
+  "stack": "Error: Failed to initialize checkpointing: Author identity unknown\n\n*** Please tell me who you are.\n\nRun\n\n  git config --global user.email \"you@example.com\"\n  git config --global user.name \"Your Name\"\n\nto set your account's default identity.\nOmit --global to set the identity only in this repository.\n\nfatal: unable to auto-detect email address (got 'ankur@arch.(none)')\n. Please check that Git is working properly or disable checkpointing.\n    at _GitService.initialize (file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.70.0/agent/a2a-server.mjs:400770:13)\n    at async Config.getGitService (file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.70.0/agent/a2a-server.mjs:414365:7)\n    at async Config.initialize (file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.70.0/agent/a2a-server.mjs:413609:7)\n    at async loadConfig (file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.70.0/agent/a2a-server.mjs:415092:3)\n    at async createApp (file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.70.0/agent/a2a-server.mjs:417389:21)\n    at async main (file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.70.0/agent/a2a-server.mjs:417522:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 39881
+[INFO] 2026-02-09 15:19:40.232 PM -- [CoderAgentExecutor] Overriding workspace path to: /home/ankur/Documents/att
+(node:39881) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+Hook registry initialized with 0 hook entries
+Hook system initialized successfully
+[STARTUP] StartupProfiler.flush() called with 1 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 680.4137069999999
+[INFO] 2026-02-09 15:19:40.936 PM -- [Config] Using CCPA Auth:
+Loaded cached credentials.
+Experiments loaded {
+  experimentIds: [
+    106018688,
+    105979538,
+    105979560,
+    106015337,
+    105979579,
+    105867471,
+    105995634,
+    105954236,
+    105640665,
+    104638466,
+    105704191,
+    101868197,
+    104817729,
+    105695344,
+    104913215,
+    105821930,
+    105742851,
+    104922093,
+    103012598,
+    105898505,
+    105959757,
+    105856899,
+    102617194,
+    105098746,
+    105903990,
+    105737996,
+    105746180,
+    105757908,
+    104892493,
+    105723762,
+    105785683,
+    105897325,
+    105658067,
+    105864343,
+    105943702,
+    105620019,
+    104739378,
+    105887313,
+    105979531,
+    105979553,
+    106015328,
+    105867469,
+    105640661,
+    104638459,
+    105704187,
+    101551624,
+    104673683,
+    105695346,
+    104913210,
+    105821928,
+    104922082,
+    103012592,
+    105885093,
+    105959756,
+    102519585,
+    105098743,
+    105903988,
+    105737994,
+    105746178,
+    104892490,
+    105011762,
+    105895316,
+    105658064,
+    105863625,
+    105943694,
+    105620012,
+    105887311,
+    106018685
+  ],
+  flags: [
+    {
+      flagId: '45740196',
+      boolValue: true
+    },
+    {
+      flagId: '45740197',
+      floatValue: 0.7
+    },
+    {
+      flagId: '45740199',
+      stringValue: 'Gemini 3 Flash and Pro are now available. \\nEnable "Preview features" in /settings. \\nLearn more at https://goo.gle/enable-preview-features'
+    },
+    {
+      flagId: '45740200',
+      stringValue: ''
+    },
+    {
+      flagId: '45743869',
+      boolValue: true
+    },
+    {
+      flagId: '45750526',
+      boolValue: true
+    },
+    {
+      flagId: '45750527',
+      intValue: '90'
+    },
+    {
+      flagId: '45752213',
+      boolValue: false
+    }
+  ]
+}
+[INFO] 2026-02-09 15:19:42.672 PM -- [Config] GOOGLE_CLOUD_PROJECT: inner-district-03mxt
+[INFO] 2026-02-09 15:19:42.680 PM -- Using InMemoryTaskStore
+[INFO] 2026-02-09 15:19:42.685 PM -- [CoreAgent] Agent Server started on http://localhost:33025
+[INFO] 2026-02-09 15:19:42.685 PM -- [CoreAgent] Agent Card: http://localhost:33025/.well-known/agent-card.json
+[INFO] 2026-02-09 15:19:42.685 PM -- [CoreAgent] Press Ctrl+C to stop the server

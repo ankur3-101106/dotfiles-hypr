@@ -1,0 +1,86 @@
+2026-02-09 15:04:32.483 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-02-09 15:04:32.483 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-02-09 15:04:32.483 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-02-09 15:04:32.483 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-02-09 15:04:32.493 [info] Logged in as ankur3-101106
+2026-02-09 15:04:32.497 [info] Using the Electron fetcher.
+2026-02-09 15:04:32.778 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-02-09 15:04:32.779 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.37.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-02-09 15:04:32.779 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.37.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-02-09 15:04:32.792 [info] Found 1 entries to copy: pty.node
+2026-02-09 15:04:32.792 [info] Found 1 entries to copy: rg
+2026-02-09 15:04:33.741 [info] Got Copilot token for ankur3-101106
+2026-02-09 15:04:33.741 [info] Copilot Chat: 0.37.1, VS Code: 1.109.0
+2026-02-09 15:04:33.749 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-02-09 15:04:33.750 [info] activationBlocker from 'languageModelAccess' took for 986ms
+2026-02-09 15:04:33.789 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-02-09 15:04:33.789 [info] copilot token sku: free_limited_copilot
+2026-02-09 15:04:33.789 [info] ConversationFeature: Activating contributions
+2026-02-09 15:04:33.789 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-09 15:04:33.799 [info] Registering default platform agent...
+2026-02-09 15:04:33.799 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-02-09 15:04:33.799 [info] [code-referencing] Public code references are enabled.
+2026-02-09 15:04:33.800 [info] activationBlocker from 'conversationFeature' took for 1038ms
+2026-02-09 15:04:33.801 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-02-09 15:04:33.802 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-02-09 15:04:33.818 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-02-09 15:04:34.856 [info] Fetched model metadata in 2086ms 06c641e6-843f-4c28-985d-65590d95e152
+2026-02-09 15:04:35.133 [info] Latest entry: ccreq:latest.copilotmd
+2026-02-09 15:04:35.134 [info] ccreq:6e6afee9.copilotmd | markdown
+2026-02-09 15:13:04.701 [info] ccreq:5121306f.copilotmd | markdown
+2026-02-09 15:13:05.667 [info] message 0 returned. finish reason: [stop]
+2026-02-09 15:13:05.668 [info] request done: requestId: [edcb54be-b548-4c11-a046-28d25d91280e] model deployment ID: []
+2026-02-09 15:13:05.851 [info] ccreq:1e12f436.copilotmd | success | nes-callisto-002 | 1042ms | [XtabProvider]
+2026-02-09 15:13:05.930 [info] ccreq:f762207e.copilotmd | markdown
+2026-02-09 15:13:08.186 [info] [fetchCompletions] Request 44ac8c9f-254d-4649-9e6d-2ad979da2757 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1608.7639950000448ms
+2026-02-09 15:13:08.189 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-09 15:13:08.191 [info] ccreq:81effbd6.copilotmd | markdown
+2026-02-09 15:13:08.196 [info] ccreq:f0a55756.copilotmd | markdown
+2026-02-09 15:13:08.248 [info] ccreq:a0666fcb.copilotmd | markdown
+2026-02-09 15:13:10.142 [info] [fetchCompletions] Request 139e5155-5bc1-458d-b890-6323545ee3f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 784.72570000001ms
+2026-02-09 15:13:10.144 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2026-02-09 15:13:10.190 [info] ccreq:2f3b438b.copilotmd | markdown
+2026-02-09 15:13:11.941 [info] ccreq:8035b4c6.copilotmd | markdown
+2026-02-09 15:13:13.179 [info] ccreq:fc919873.copilotmd | markdown
+2026-02-09 15:19:44.258 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-02-09 15:19:44.258 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-02-09 15:19:44.258 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-02-09 15:19:44.258 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-02-09 15:19:44.258 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-02-09 15:19:44.258 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.37.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-02-09 15:19:44.258 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.37.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-02-09 15:19:44.259 [info] Found 1 entries to copy: pty.node
+2026-02-09 15:19:44.259 [info] Found 1 entries to copy: rg
+2026-02-09 15:19:44.261 [info] Logged in as ankur3-101106
+2026-02-09 15:19:44.264 [info] Using the Electron fetcher.
+2026-02-09 15:19:44.977 [info] Got Copilot token for ankur3-101106
+2026-02-09 15:19:44.977 [info] Copilot Chat: 0.37.1, VS Code: 1.109.0
+2026-02-09 15:19:44.981 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-02-09 15:19:44.982 [info] activationBlocker from 'languageModelAccess' took for 786ms
+2026-02-09 15:19:45.023 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-02-09 15:19:45.023 [info] copilot token sku: free_limited_copilot
+2026-02-09 15:19:45.023 [info] ConversationFeature: Activating contributions
+2026-02-09 15:19:45.023 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-09 15:19:45.032 [info] Registering default platform agent...
+2026-02-09 15:19:45.032 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-02-09 15:19:45.032 [info] [code-referencing] Public code references are enabled.
+2026-02-09 15:19:45.033 [info] activationBlocker from 'conversationFeature' took for 839ms
+2026-02-09 15:19:45.049 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-02-09 15:19:49.166 [info] Fetched model metadata in 4962ms 1c184a09-5bf2-4e27-af48-7b4d5281468c
+2026-02-09 15:19:49.423 [info] Latest entry: ccreq:latest.copilotmd
+2026-02-09 15:19:49.423 [info] ccreq:87991617.copilotmd | markdown
+2026-02-09 15:19:50.633 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-02-09 15:19:50.634 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-02-09 15:19:51.141 [error] [CopilotCLISession] Failed to fetch models: Error: Failed to list models: 500 Internal Server Error
+2026-02-09 15:19:59.941 [info] ccreq:4a9e1265.copilotmd | markdown
+2026-02-09 15:20:00.382 [info] message 0 returned. finish reason: [stop]
+2026-02-09 15:20:00.382 [info] request done: requestId: [88e1ad84-ece2-43cf-972e-b1f7c085fb0a] model deployment ID: []
+2026-02-09 15:20:00.537 [info] ccreq:e2ecda45.copilotmd | success | nes-callisto-002 | 486ms | [XtabProvider]
+2026-02-09 15:20:00.977 [info] ccreq:95b3b2b2.copilotmd | markdown
+2026-02-09 15:20:00.981 [info] ccreq:fba7f670.copilotmd | markdown
+2026-02-09 15:20:01.393 [info] message 0 returned. finish reason: [stop]
+2026-02-09 15:20:01.393 [info] request done: requestId: [34023f83-6cf1-481d-a8d4-7b27a67ab490] model deployment ID: []
+2026-02-09 15:20:01.394 [info] ccreq:0bbc4044.copilotmd | success | nes-callisto-002 | 312ms | [XtabProvider]
+2026-02-09 15:20:01.541 [info] ccreq:7573e7b3.copilotmd | markdown
+2026-02-09 15:20:01.546 [info] ccreq:288c7344.copilotmd | markdown
+2026-02-09 15:20:02.790 [info] ccreq:b32bc549.copilotmd | markdown

@@ -1,0 +1,41 @@
+{
+    "uuid": "74969ffb-398d-4b69-8ca2-fb958a392430",
+    "name": "a fluffy cat",
+    "ai_name": "",
+    "ai_avatar": "",
+    "ai_personalize": false,
+    "user_name": "",
+    "prompt": "a fluffy cat sitting comfortably on a sunny windowsill, with warm sunlight highlighting its fur, looking curiously outside",
+    "chat": false,
+    "completion": false,
+    "img": true,
+    "assistant": false,
+    "llama_index": false,
+    "agent": false,
+    "agent_llama": false,
+    "agent_openai": false,
+    "expert": false,
+    "audio": false,
+    "research": false,
+    "computer": false,
+    "temperature": 1.0,
+    "filename": "dalle_white_cat",
+    "model": null,
+    "tools": {
+        "function": []
+    },
+    "experts": [],
+    "idx": null,
+    "agent_provider": null,
+    "agent_provider_openai": null,
+    "assistant_id": "",
+    "enabled": true,
+    "description": "",
+    "remote_tools": [],
+    "extra": {},
+    "__meta__": {
+        "version": "2.7.12",
+        "app.version": "2.7.12",
+        "updated_at": "2026-02-09T15:24:50"
+    }
+}

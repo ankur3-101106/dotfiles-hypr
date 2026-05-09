@@ -1,0 +1,28 @@
+2026-02-09 14:57:20.702 [info] Extension host with pid 14869 started
+2026-02-09 14:57:20.751 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-02-09 14:57:20.772 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-02-09 14:57:20.785 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-02-09 14:57:21.449 [info] Extension host terminating: renderer closed the MessagePort
+2026-02-09 14:57:21.451 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at ru (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122379
+	at Array.forEach (<anonymous>)
+	at kE.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122319)
+	at GK.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10238)
+	at _N.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Ur (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:11143)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:7610)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959) 
+2026-02-09 14:57:21.451 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at ru (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122379
+	at Array.forEach (<anonymous>)
+	at kE.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122319)
+	at GK.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10238)
+	at _N.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Ur (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:11143)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:7610)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959) 
+2026-02-09 14:57:21.451 [info] Extension host with pid 14869 exiting with code 0

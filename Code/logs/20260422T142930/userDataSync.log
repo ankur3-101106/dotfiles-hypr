@@ -1,0 +1,27 @@
+2026-04-22 14:29:31.957 [info] [AutoSync] Using settings sync service https://vscode-sync.trafficmanager.net/
+2026-04-22 14:29:31.957 [info] [AutoSync] Enabled.
+2026-04-22 14:29:31.957 [info] [AutoSync] Suspended until auth token is available.
+2026-04-22 14:29:32.413 [info] [AutoSync] Triggered by Interval
+2026-04-22 14:29:32.413 [info] Sync started.
+2026-04-22 14:29:34.951 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:29:34.959 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:29:34.983 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:29:35.004 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:29:35.006 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:29:35.009 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:29:35.038 [info] Extensions: No changes found during synchronizing extensions.
+2026-04-22 14:29:35.041 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:29:35.042 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:29:35.043 [info] Sync done. Took 2630ms
+2026-04-22 14:29:44.135 [info] [AutoSync] Triggered by Activity
+2026-04-22 14:29:44.135 [info] Sync started.
+2026-04-22 14:29:45.106 [info] Settings: No changes found during synchronizing settings.
+2026-04-22 14:29:45.110 [info] Keybindings: No changes found during synchronizing keybindings.
+2026-04-22 14:29:45.115 [info] Snippets: No changes found during synchronizing snippets.
+2026-04-22 14:29:45.117 [info] Tasks: No changes found during synchronizing tasks.
+2026-04-22 14:29:45.119 [info] Mcp: No changes found during synchronizing mcp.
+2026-04-22 14:29:45.122 [info] GlobalState: No changes found during synchronizing ui state.
+2026-04-22 14:29:45.215 [info] Extensions: No changes found during synchronizing extensions.
+2026-04-22 14:29:45.219 [info] Prompts: No changes found during synchronizing prompts.
+2026-04-22 14:29:45.221 [info] Profiles: No changes found during synchronizing profiles.
+2026-04-22 14:29:45.222 [info] Sync done. Took 1088ms

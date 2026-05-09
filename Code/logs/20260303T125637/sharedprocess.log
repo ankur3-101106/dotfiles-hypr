@@ -1,0 +1,130 @@
+2026-03-03 12:56:44.143 [info] Getting Manifest... ms-vscode.cpp-devtools
+2026-03-03 12:56:44.143 [info] Getting Manifest... ziglang.vscode-zig
+2026-03-03 12:56:44.144 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2026-03-03 12:56:44.277 [info] Getting Manifest... anthropic.claude-code
+2026-03-03 12:56:44.278 [info] Getting Manifest... ecmel.vscode-html-css
+2026-03-03 12:56:44.279 [info] Getting Manifest... github.copilot-chat
+2026-03-03 12:56:44.279 [info] Getting Manifest... google.geminicodeassist
+2026-03-03 12:56:44.279 [info] Getting Manifest... ms-python.python
+2026-03-03 12:56:44.280 [info] Getting Manifest... ms-python.vscode-pylance
+2026-03-03 12:56:44.280 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-03-03 12:56:44.281 [info] Getting Manifest... ms-vscode.cmake-tools
+2026-03-03 12:56:44.281 [info] Getting Manifest... ms-vscode.cpptools
+2026-03-03 12:56:44.282 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2026-03-03 12:56:44.282 [info] Getting Manifest... openai.chatgpt
+2026-03-03 12:56:44.283 [info] Getting Manifest... redhat.java
+2026-03-03 12:56:44.283 [info] Getting Manifest... ritwickdey.liveserver
+2026-03-03 12:56:44.283 [info] Getting Manifest... vscjava.migrate-java-to-azure
+2026-03-03 12:56:44.284 [info] Getting Manifest... vscjava.vscode-java-upgrade
+2026-03-03 12:56:44.313 [info] Installing extension: ms-vscode.cmake-tools {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.350 [info] Installing extension: anthropic.claude-code {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.351 [info] Installing extension: ms-vscode.cpptools {"installPreReleaseVersion":true,"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.352 [info] Installing extension: ms-vscode.cpptools-extension-pack {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.353 [info] Installing extension: vscjava.vscode-java-upgrade {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.355 [info] Installing extension: vscjava.migrate-java-to-azure {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.363 [info] Installing extension: openai.chatgpt {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.364 [info] Installing extension: google.geminicodeassist {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.366 [info] Installing extension: ecmel.vscode-html-css {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.366 [info] Installing extension: redhat.java {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.376 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.377 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.377 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.424 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.425 [info] Getting Manifest... ms-vscode.cpp-devtools
+2026-03-03 12:56:44.426 [info] Installing extension: ritwickdey.liveserver {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-03-03 12:56:44.484 [info] Installing extension: ms-vscode.cpp-devtools {"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-03-03 12:56:44.486 [info] Getting Manifest... ms-vscode.cpp-devtools
+2026-03-03 12:56:44.521 [info] Waiting for already requested installing extension ms-vscode.cpp-devtools ms-vscode.cpptools-extension-pack vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:56:44.551 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"preRelease":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync","skipPublisherTrust":true},"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"}}
+2026-03-03 12:56:44.552 [info] Extension is already requested to install ms-vscode.cpp-devtools vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:56:44.552 [info] Installing extension: ziglang.vscode-zig {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"preRelease":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync","skipPublisherTrust":true},"productVersion":{"version":"1.109.0","date":"2026-02-04T02:01:38.288Z"}}
+2026-03-03 12:56:44.552 [info] Installing the extension without checking dependencies and pack llvm-vs-code-extensions.vscode-clangd
+2026-03-03 12:56:44.552 [info] Installing the extension without checking dependencies and pack ziglang.vscode-zig
+2026-03-03 12:56:47.057 [info] Extension signature verification result for ecmel.vscode-html-css: Success. Internal Code: 0. Executed: true. Duration: 796ms.
+2026-03-03 12:56:47.068 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ecmel.vscode-html-css-2.0.14: ecmel.vscode-html-css
+2026-03-03 12:56:47.076 [info] Renamed to /home/ankur/.vscode/extensions/ecmel.vscode-html-css-2.0.14
+2026-03-03 12:56:47.094 [info] Marked extension as removed ecmel.vscode-html-css-2.0.13
+2026-03-03 12:56:47.113 [info] Extension installed successfully: ecmel.vscode-html-css vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:56:47.883 [info] Extension signature verification result for ms-vscode.cpptools-extension-pack: Success. Internal Code: 0. Executed: true. Duration: 2178ms.
+2026-03-03 12:56:47.889 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.5.1: ms-vscode.cpptools-extension-pack
+2026-03-03 12:56:47.896 [info] Renamed to /home/ankur/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.5.1
+2026-03-03 12:56:47.909 [info] Marked extension as removed ms-vscode.cpptools-extension-pack-1.3.1
+2026-03-03 12:56:48.548 [info] Extension signature verification result for ms-vscode.cpp-devtools: Success. Internal Code: 0. Executed: true. Duration: 2607ms.
+2026-03-03 12:56:48.658 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-vscode.cpp-devtools-0.3.5: ms-vscode.cpp-devtools
+2026-03-03 12:56:48.681 [info] Renamed to /home/ankur/.vscode/extensions/ms-vscode.cpp-devtools-0.3.5
+2026-03-03 12:56:49.741 [info] Extension signature verification result for llvm-vs-code-extensions.vscode-clangd: Success. Internal Code: 0. Executed: true. Duration: 435ms.
+2026-03-03 12:56:49.759 [info] Extracted extension to file:///home/ankur/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.4.0: llvm-vs-code-extensions.vscode-clangd
+2026-03-03 12:56:49.767 [info] Renamed to /home/ankur/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.4.0
+2026-03-03 12:56:50.340 [info] Extension signature verification result for ziglang.vscode-zig: Success. Internal Code: 0. Executed: true. Duration: 494ms.
+2026-03-03 12:56:50.354 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ziglang.vscode-zig-0.6.17: ziglang.vscode-zig
+2026-03-03 12:56:50.362 [info] Renamed to /home/ankur/.vscode/extensions/ziglang.vscode-zig-0.6.17
+2026-03-03 12:56:50.413 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:56:50.413 [info] Extension installed successfully: ziglang.vscode-zig vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:56:51.943 [info] Extension signature verification result for vscjava.vscode-java-upgrade: Success. Internal Code: 0. Executed: true. Duration: 545ms.
+2026-03-03 12:56:51.992 [info] Extracted extension to file:///home/ankur/.vscode/extensions/vscjava.vscode-java-upgrade-2.0.0: vscjava.vscode-java-upgrade
+2026-03-03 12:56:52.000 [info] Renamed to /home/ankur/.vscode/extensions/vscjava.vscode-java-upgrade-2.0.0
+2026-03-03 12:56:52.031 [info] Marked extension as removed vscjava.vscode-java-upgrade-1.12.1
+2026-03-03 12:56:52.038 [info] Extension installed successfully: vscjava.vscode-java-upgrade vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:07.211 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 459ms.
+2026-03-03 12:57:07.366 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64: ms-python.vscode-python-envs
+2026-03-03 12:57:07.377 [info] Renamed to /home/ankur/.vscode/extensions/ms-python.vscode-python-envs-1.20.1-linux-x64
+2026-03-03 12:57:07.406 [info] Marked extension as removed ms-python.vscode-python-envs-1.16.0-linux-x64
+2026-03-03 12:57:07.421 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:10.029 [info] Extension signature verification result for ms-vscode.cmake-tools: Success. Internal Code: 0. Executed: true. Duration: 487ms.
+2026-03-03 12:57:10.255 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-vscode.cmake-tools-1.22.28: ms-vscode.cmake-tools
+2026-03-03 12:57:10.270 [info] Renamed to /home/ankur/.vscode/extensions/ms-vscode.cmake-tools-1.22.28
+2026-03-03 12:57:10.322 [info] Marked extension as removed ms-vscode.cmake-tools-1.22.27
+2026-03-03 12:57:10.325 [info] Extension installed successfully: ms-vscode.cpp-devtools vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:10.325 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:10.325 [info] Finished waiting for already requested installing extension ms-vscode.cpp-devtools ms-vscode.cpptools-extension-pack vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:10.325 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:25.961 [info] Extension signature verification result for ritwickdey.liveserver: Success. Internal Code: 0. Executed: true. Duration: 490ms.
+2026-03-03 12:57:27.141 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ritwickdey.liveserver-5.7.10: ritwickdey.liveserver
+2026-03-03 12:57:27.245 [info] Renamed to /home/ankur/.vscode/extensions/ritwickdey.liveserver-5.7.10
+2026-03-03 12:57:27.260 [info] Marked extension as removed ritwickdey.liveserver-5.7.9
+2026-03-03 12:57:27.280 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:31.330 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 357ms.
+2026-03-03 12:57:31.831 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-python.python-2026.2.0-linux-x64: ms-python.python
+2026-03-03 12:57:31.884 [info] Renamed to /home/ankur/.vscode/extensions/ms-python.python-2026.2.0-linux-x64
+2026-03-03 12:57:31.909 [info] Marked extension as removed ms-python.python-2026.0.0-linux-x64
+2026-03-03 12:57:31.919 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:57:54.598 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 348ms.
+2026-03-03 12:57:54.876 [info] Extracted extension to file:///home/ankur/.vscode/extensions/github.copilot-chat-0.37.5: github.copilot-chat
+2026-03-03 12:57:54.890 [info] Renamed to /home/ankur/.vscode/extensions/github.copilot-chat-0.37.5
+2026-03-03 12:57:54.922 [info] Marked extension as removed github.copilot-chat-0.37.1
+2026-03-03 12:57:54.934 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:58:25.508 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 423ms.
+2026-03-03 12:58:27.236 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-python.vscode-pylance-2026.1.1: ms-python.vscode-pylance
+2026-03-03 12:58:27.382 [info] Renamed to /home/ankur/.vscode/extensions/ms-python.vscode-pylance-2026.1.1
+2026-03-03 12:58:27.410 [info] Marked extension as removed ms-python.vscode-pylance-2025.10.4
+2026-03-03 12:58:27.418 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 12:59:34.585 [info] Extension signature verification result for openai.chatgpt: Success. Internal Code: 0. Executed: true. Duration: 401ms.
+2026-03-03 12:59:35.218 [info] Extracted extension to file:///home/ankur/.vscode/extensions/openai.chatgpt-0.4.79-linux-x64: openai.chatgpt
+2026-03-03 12:59:35.240 [info] Renamed to /home/ankur/.vscode/extensions/openai.chatgpt-0.4.79-linux-x64
+2026-03-03 12:59:35.254 [info] Marked extension as removed openai.chatgpt-0.4.71-linux-x64
+2026-03-03 12:59:35.280 [info] Extension installed successfully: openai.chatgpt vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 13:00:30.607 [info] Extension signature verification result for vscjava.migrate-java-to-azure: Success. Internal Code: 0. Executed: true. Duration: 448ms.
+2026-03-03 13:00:31.307 [info] Extracted extension to file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64: vscjava.migrate-java-to-azure
+2026-03-03 13:00:31.351 [info] Renamed to /home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64
+2026-03-03 13:00:31.381 [info] Marked extension as removed vscjava.migrate-java-to-azure-1.12.1-linux-x64
+2026-03-03 13:00:31.393 [info] Extension installed successfully: vscjava.migrate-java-to-azure vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 13:00:34.534 [info] Extension signature verification result for ms-vscode.cpptools: Success. Internal Code: 0. Executed: true. Duration: 483ms.
+2026-03-03 13:00:35.962 [info] Extracted extension to file:///home/ankur/.vscode/extensions/ms-vscode.cpptools-1.31.0-linux-x64: ms-vscode.cpptools
+2026-03-03 13:00:35.984 [info] Renamed to /home/ankur/.vscode/extensions/ms-vscode.cpptools-1.31.0-linux-x64
+2026-03-03 13:00:36.027 [info] Marked extension as removed ms-vscode.cpptools-1.30.4-linux-x64
+2026-03-03 13:00:36.030 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 13:01:00.369 [info] Extension signature verification result for anthropic.claude-code: Success. Internal Code: 0. Executed: true. Duration: 460ms.
+2026-03-03 13:01:01.346 [info] Extracted extension to file:///home/ankur/.vscode/extensions/anthropic.claude-code-2.1.63-linux-x64: anthropic.claude-code
+2026-03-03 13:01:01.355 [info] Renamed to /home/ankur/.vscode/extensions/anthropic.claude-code-2.1.63-linux-x64
+2026-03-03 13:01:01.370 [info] Marked extension as removed anthropic.claude-code-2.1.37-linux-x64
+2026-03-03 13:01:01.395 [info] Extension installed successfully: anthropic.claude-code vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 13:01:06.112 [info] Extension signature verification result for redhat.java: Success. Internal Code: 0. Executed: true. Duration: 447ms.
+2026-03-03 13:01:06.921 [info] Extracted extension to file:///home/ankur/.vscode/extensions/redhat.java-1.53.0-linux-x64: redhat.java
+2026-03-03 13:01:06.936 [info] Renamed to /home/ankur/.vscode/extensions/redhat.java-1.53.0-linux-x64
+2026-03-03 13:01:06.951 [info] Marked extension as removed redhat.java-1.52.0-linux-x64
+2026-03-03 13:01:06.971 [info] Extension installed successfully: redhat.java vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-03-03 13:01:35.366 [info] Extension signature verification result for google.geminicodeassist: Success. Internal Code: 0. Executed: true. Duration: 572ms.
+2026-03-03 13:01:36.216 [info] Extracted extension to file:///home/ankur/.vscode/extensions/google.geminicodeassist-2.73.0: google.geminicodeassist
+2026-03-03 13:01:36.237 [info] Renamed to /home/ankur/.vscode/extensions/google.geminicodeassist-2.73.0
+2026-03-03 13:01:36.252 [info] Marked extension as removed google.geminicodeassist-2.70.0
+2026-03-03 13:01:36.278 [info] Extension installed successfully: google.geminicodeassist vscode-userdata:/home/ankur/.vscode/extensions/extensions.json

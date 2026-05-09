@@ -1,0 +1,119 @@
+
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+"padding": {
+"top": 1
+}
+},
+"display": {
+"separator": " 󰑃  "
+},
+"modules": [
+    "break",
+    {
+      "type": "title",
+      "key": "👤 user@host",
+      "keyColor" : "#ff8000",
+      "outputColor": "#ff2bea"
+    },
+    {
+    "type": "os",
+    "key": " DISTRO",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "kernel",
+    "key": "│ ├ Kernel",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "packages",
+    "key": "│ ├󰏖 packages",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "shell",
+    "key": "│ └ Shell",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "wm",
+    "key": " DE/WM",
+    "keyColor": "blue"
+    },
+    {
+    "type": "terminalfont",
+    "key": "│ ├ Font",
+    "keyColor": "blue",
+    },
+    {
+    "type": "terminal",
+    "key": "│ └ Terminal",
+    "keyColor": "blue"
+    },
+    {
+    "type": "host",
+    "key": "󰌢 SYSTEM",
+    "keyColor": "green"
+    },
+    {
+    "type": "cpu",
+    "key": "│ ├󰻠 CPU",
+    "keyColor": "green"
+    },
+    {
+    "type": "gpu",
+    "key": "│ ├󰻑 GPU",
+    "format": "{2}",
+    "keyColor": "green"
+    },
+    {
+    "type": "memory",
+    "key": "│ ├󰾆 RAM",
+    "keyColor": "green"
+    },
+    {
+    "type": "swap",
+    "key": "│ ├󰓡 Swap",
+    "keyColor": "green"
+    },
+    {
+    "type": "uptime",
+    "key": "│ ├󰅐 Uptime",
+    "keyColor": "green"
+    },
+    {
+      "type": "command",
+      "key": "│ ├󱦟 OS Age",
+      "keyColor": "green",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+    "type": "display",
+    "key": "│ └󰍹 Display",
+    "keyColor": "green"
+    },
+    {
+    "type": "sound",
+    "key": " AUDIO",
+    "format": "{2}",
+    "keyColor": "#ff2bea"
+    },
+    {
+    "type": "player",
+    "key": "│ ├󰥠 Player",
+    "keyColor": "#ff2bea"
+    },
+    {
+    "type": "media",
+    "key": "│ └󰝚 Media",
+    "keyColor": "#ff2bea"
+    },
+    {
+    "type": "custom",
+    "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
+    },
+    "break",
+    ]
+}

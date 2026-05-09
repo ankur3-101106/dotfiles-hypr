@@ -1,0 +1,1 @@
+2026-03-25 18:04:10.953 [error] #58: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR

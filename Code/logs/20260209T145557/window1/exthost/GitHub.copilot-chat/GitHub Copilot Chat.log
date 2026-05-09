@@ -1,0 +1,32 @@
+2026-02-09 14:56:36.735 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-02-09 14:56:36.735 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-02-09 14:56:36.735 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-02-09 14:56:36.735 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-02-09 14:56:36.743 [info] Logged in as ankur3-101106
+2026-02-09 14:56:36.745 [info] Using the Electron fetcher.
+2026-02-09 14:56:37.009 [info] ConversationFeature: Waiting for copilot token to activate conversation feature
+2026-02-09 14:56:37.010 [info] Creating node-pty shim: source=/opt/visual-studio-code/resources/app/node_modules/node-pty/build/Release, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.37.1/node_modules/@github/copilot/prebuilds/linux-x64
+2026-02-09 14:56:37.010 [info] Creating ripgrep shim: source=/opt/visual-studio-code/resources/app/node_modules/@vscode/ripgrep/bin, dest=/home/ankur/.vscode/extensions/github.copilot-chat-0.37.1/node_modules/@github/copilot/sdk/ripgrep/bin/linux-x64
+2026-02-09 14:56:37.023 [info] Found 1 entries to copy: pty.node
+2026-02-09 14:56:37.024 [info] Found 1 entries to copy: rg
+2026-02-09 14:56:37.357 [info] Got Copilot token for ankur3-101106
+2026-02-09 14:56:37.357 [info] Copilot Chat: 0.37.1, VS Code: 1.109.0
+2026-02-09 14:56:37.362 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-02-09 14:56:37.363 [info] activationBlocker from 'languageModelAccess' took for 369ms
+2026-02-09 14:56:37.402 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-02-09 14:56:37.402 [info] copilot token sku: free_limited_copilot
+2026-02-09 14:56:37.402 [info] ConversationFeature: Activating contributions
+2026-02-09 14:56:37.402 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-02-09 14:56:37.414 [info] Registering default platform agent...
+2026-02-09 14:56:37.415 [info] ConversationFeature: onDidAuthenticationChange has token: true
+2026-02-09 14:56:37.415 [info] [code-referencing] Public code references are enabled.
+2026-02-09 14:56:37.415 [info] activationBlocker from 'conversationFeature' took for 423ms
+2026-02-09 14:56:37.435 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-02-09 14:56:37.655 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-02-09 14:56:37.657 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-02-09 14:56:38.318 [info] Fetched model metadata in 1317ms 6387b99d-8ea5-45bf-8630-5aecba1645ed
+2026-02-09 14:56:39.285 [info] Latest entry: ccreq:latest.copilotmd
+2026-02-09 14:56:39.285 [info] ccreq:2dadc208.copilotmd | markdown
+2026-02-09 14:56:45.742 [info] Refetch model metadata: Succeeded in 1450ms 2edef65d-3977-416a-805d-123e7f3111d6 (121A:20146F:6453FB:6F04B3:6989A854) using node-fetch with status 200.
+2026-02-09 14:56:46.889 [info] Refetch model metadata: Succeeded in 1147ms cbf1f4ee-e954-42ab-8c99-9265bc842dca (926A:48E3F:63BCCE:6E7884:6989A856) using node-http with status 200.
+2026-02-09 14:56:47.186 [info] Refetch model metadata: Succeeded in 297ms a10cf8d9-106c-4641-a0bb-d1be8a1246e7 (071E:358A00:21BD2F2:28AA5B6:6989A84E) using electron-fetch with status 200.

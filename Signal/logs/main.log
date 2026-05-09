@@ -1,0 +1,100 @@
+{"level":30,"time":"2026-03-21T07:12:05.829Z","msg":"[startup_config] Set Windows Application User Model ID (AUMID) {\"AUMID\":\"org.whispersystems.signal-desktop\"}"}
+{"level":30,"time":"2026-03-21T07:12:05.842Z","msg":"[base_config] config/get: Successfully read user config file"}
+{"level":30,"time":"2026-03-21T07:12:05.901Z","msg":"[base_config] config/get: Successfully read ephemeral config file"}
+{"level":30,"time":"2026-03-21T07:12:05.943Z","msg":"[app/main] making app single instance"}
+{"level":30,"time":"2026-03-21T07:12:06.537Z","msg":"[app/main] got fast localeOverride setting null"}
+{"level":30,"time":"2026-03-21T07:12:06.538Z","msg":"[app/main] app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2026-03-21T07:12:06.538Z","msg":"[app/main] app.ready: preferred system locales: [\"en-IN\",\"en\"]"}
+{"level":30,"time":"2026-03-21T07:12:06.538Z","msg":"[app/main] locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2026-03-21T07:12:06.538Z","msg":"[app/main] locale: Preferred locales: en-IN, en"}
+{"level":30,"time":"2026-03-21T07:12:06.538Z","msg":"[app/main] locale: Locale Override: null"}
+{"level":30,"time":"2026-03-21T07:12:06.539Z","msg":"[app/main] locale: Matched locale: en"}
+{"level":40,"time":"2026-03-21T07:12:06.557Z","msg":"[setupI18nMain] intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.github.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2026-03-21T07:12:06.558Z","msg":"[app/main] locale: Text info direction for en: ltr"}
+{"level":30,"time":"2026-03-21T07:12:06.558Z","msg":"[app/main] getSQLKey: using legacy key"}
+{"level":30,"time":"2026-03-21T07:12:06.558Z","msg":"[SystemTraySettingCache] getSystemTraySetting got value DoNotUseSystemTray"}
+{"level":30,"time":"2026-03-21T07:12:06.558Z","msg":"[SystemTraySettingCache] getSystemTraySetting returning DoNotUseSystemTray"}
+{"level":30,"time":"2026-03-21T07:12:06.559Z","msg":"[app/main] app ready"}
+{"level":30,"time":"2026-03-21T07:12:06.559Z","msg":"[app/main] starting version 8.0.0"}
+{"level":30,"time":"2026-03-21T07:12:06.559Z","msg":"[app/main] media access status [object Undefined] [object Undefined] [object Undefined]"}
+{"level":30,"time":"2026-03-21T07:12:06.560Z","msg":"[app/main] got fast theme-setting value system"}
+{"level":30,"time":"2026-03-21T07:12:06.566Z","msg":"[app/main] MainSQL: updateSchema:\n  Current user_version: 1630;\n  Most recent db schema: 1660;\n  SQLite version: 3.50.4;\n  SQLCipher version: 4.10.0 community;\n  (deprecated) schema_version: 593;\n"}
+{"level":30,"time":"2026-03-21T07:12:06.566Z","msg":"[app/main] MainSQL: [updateSchema(1640)] success"}
+{"level":30,"time":"2026-03-21T07:12:06.566Z","msg":"[app/main] MainSQL: [updateSchema(1650)] success"}
+{"level":30,"time":"2026-03-21T07:12:06.566Z","msg":"[app/main] MainSQL: [updateSchema(1660)] success"}
+{"level":30,"time":"2026-03-21T07:12:06.569Z","msg":"[app/main] got fast spellcheck setting true"}
+{"level":30,"time":"2026-03-21T07:12:06.570Z","msg":"[app/main] got fast theme-setting value system"}
+{"level":30,"time":"2026-03-21T07:12:06.570Z","msg":"[app/main] got fast spellcheck setting true"}
+{"level":30,"time":"2026-03-21T07:12:06.570Z","msg":"[app/main] visibleOnAnyScreen(window): x=0, y=0, width=1014, height=1231"}
+{"level":30,"time":"2026-03-21T07:12:06.571Z","msg":"[app/main] visibleOnAnyScreen(display #66): x=0, y=0, width=2048, height=1280"}
+{"level":30,"time":"2026-03-21T07:12:06.571Z","msg":"[app/main] Initializing BrowserWindow config: {\"show\":false,\"width\":1014,\"height\":1231,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.wrapper.js\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":0,\"y\":0}"}
+{"level":30,"time":"2026-03-21T07:12:06.609Z","msg":"[spell_check] spellcheck: user locales: [\"en-IN\",\"en\"]"}
+{"level":30,"time":"2026-03-21T07:12:06.609Z","msg":"[spell_check] spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"gl\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2026-03-21T07:12:06.609Z","msg":"[spell_check] spellcheck: setting languages to: [\"en\",\"en\"]"}
+{"level":30,"time":"2026-03-21T07:12:06.610Z","msg":"[app/main] MainSQL: updateSchema: optimize took 8ms"}
+{"level":30,"time":"2026-03-21T07:12:06.949Z","msg":"[app/main] got fast theme-setting value system"}
+{"level":30,"time":"2026-03-21T07:12:07.429Z","msg":"[app/main] main window webContents did-finish-load"}
+{"level":30,"time":"2026-03-21T07:12:07.429Z","msg":"[app/main] showing main window"}
+{"level":30,"time":"2026-03-21T07:12:07.432Z","msg":"[SystemTrayService] System tray service: created"}
+{"level":30,"time":"2026-03-21T07:12:07.432Z","msg":"[SystemTrayService] System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2026-03-21T07:12:07.432Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2026-03-21T07:12:07.433Z","msg":"[app/main] Begin ensuring permissions"}
+{"level":30,"time":"2026-03-21T07:12:07.434Z","msg":"[app/main] Ensuring file permissions for 4 files"}
+{"level":30,"time":"2026-03-21T07:12:07.435Z","msg":"[app/main] Finish ensuring permissions in 2ms"}
+{"level":30,"time":"2026-03-21T07:12:07.480Z","msg":"[attachments] deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2026-03-21T07:12:07.495Z","msg":"[app/main] MainSQL: removeKnownStickers: About to iterate through 219 stickers"}
+{"level":30,"time":"2026-03-21T07:12:07.497Z","msg":"[app/main] MainSQL: removeKnownStickers: Done processing 219 stickers"}
+{"level":30,"time":"2026-03-21T07:12:07.497Z","msg":"[attachments] deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2026-03-21T07:12:07.499Z","msg":"[app/main] MainSQL: removeKnownDraftAttachments: About to iterate through 609 conversations"}
+{"level":30,"time":"2026-03-21T07:12:07.499Z","msg":"[app/main] Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1014,\"height\":611,\"x\":0,\"y\":0}"}
+{"level":30,"time":"2026-03-21T07:12:07.500Z","msg":"[base_config] config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2026-03-21T07:12:07.509Z","msg":"[base_config] config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2026-03-21T07:12:07.509Z","msg":"[app/main] MainSQL: removeKnownDraftAttachments: Done processing 609 conversations"}
+{"level":30,"time":"2026-03-21T07:12:07.509Z","msg":"[attachments] deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2026-03-21T07:12:07.515Z","msg":"[attachment_channel] cleanupOrphanedAttachments: found 14 attachments on disk"}
+{"level":30,"time":"2026-03-21T07:12:07.517Z","msg":"[attachment_channel] cleanupOrphanedAttachments: found 0 downloads on disk"}
+{"level":30,"time":"2026-03-21T07:12:07.518Z","msg":"[app/main] MainSQL: getKnownConversationAttachments: About to iterate through 609"}
+{"level":30,"time":"2026-03-21T07:12:07.524Z","msg":"[app/main] MainSQL: getKnownConversationAttachments: Done processing"}
+{"level":30,"time":"2026-03-21T07:12:07.524Z","msg":"[attachment_channel] cleanupOrphanedAttachments: Got 5 conversation attachments, 10 remain"}
+{"level":40,"time":"2026-03-21T07:12:07.524Z","msg":"[attachment_channel] cleanupOrphanedAttachments: 1 conversation attachments were not found on disk"}
+{"level":30,"time":"2026-03-21T07:12:07.524Z","msg":"[attachment_channel] cleanupOrphanedAttachments: found 0 known downloads, 0 remain"}
+{"level":30,"time":"2026-03-21T07:12:07.525Z","msg":"[attachment_channel] cleanupOrphanedAttachments: took 47ms"}
+{"level":30,"time":"2026-03-21T07:12:07.526Z","msg":"[app/main] MainSQL: pageMessages(10145b41d903bfc7): Starting iteration through 47 messages"}
+{"level":30,"time":"2026-03-21T07:12:07.586Z","msg":"[app/main] MainSQL: finishPageMessages(10145b41d903bfc7): reached the end after processing 47 messages"}
+{"level":30,"time":"2026-03-21T07:12:07.586Z","msg":"[attachment_channel] cleanupOrphanedAttachments: 10 attachments and       0 downloads found on disk"}
+{"level":30,"time":"2026-03-21T07:12:07.586Z","msg":"[attachments] deleteAll: deleted 0 files"}
+{"level":30,"time":"2026-03-21T07:12:07.586Z","msg":"[attachments] deleteAllDownloads: deleted 0 files"}
+{"level":30,"time":"2026-03-21T07:12:07.587Z","msg":"[attachment_channel] deleteOrphanedAttachments: took 62ms"}
+{"level":30,"time":"2026-03-21T07:12:07.672Z","msg":"[app/main] MainSQL: dequeueOldestSyncTasks: Deleted 1 expired sync tasks"}
+{"level":30,"time":"2026-03-21T07:12:07.704Z","msg":"[PreventDisplaySleepService] Prevent display sleep service: allowing display sleep"}
+{"level":40,"time":"2026-03-21T07:12:07.708Z","msg":"[OptionalResourceService] emoji-index-en.json is no longer valid on disk"}
+{"level":40,"time":"2026-03-21T07:12:08.702Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(updates2.signal.org): connected to IPv4 addr after 944ms (attempts v4=1 v6=1)"}
+{"level":50,"time":"2026-03-21T07:12:09.246Z","msg":"[app/main] [updater] Error starting update checks: Error: ENOENT: no such file or directory, watch '/usr/lib/signal-desktop/.signal-postinst'\n    at FSWatcher.<computed> (node:internal/fs/watchers:254:19)\n    at watch (node:fs:2551:36)\n    at initLinux ([REDACTED]/ts/updater/linux.main.js:94:28)\n    at Object.start ([REDACTED]/ts/updater/index.main.js:69:39)\n    at IpcMainImpl.readyForUpdates ([REDACTED]/app/main.main.js:844:19)\n    at Object.onceWrapper (node:events:623:26)\n    at IpcMainImpl.emit (node:events:508:28)\n    at Session.<anonymous> (node:electron/js2c/browser_init:2:115789)\n    at Session.emit (node:events:508:28)"}
+{"level":30,"time":"2026-03-21T07:12:09.247Z","msg":"[SystemTrayService] System tray service: setting unread count to 5"}
+{"level":30,"time":"2026-03-21T07:12:09.247Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2026-03-21T07:12:09.247Z","msg":"[app/main] App loaded - time: 2689"}
+{"level":30,"time":"2026-03-21T07:12:09.247Z","msg":"[app/main] SQL init - time: 55"}
+{"level":30,"time":"2026-03-21T07:12:09.247Z","msg":"[app/main] Preload Compile - time: 166"}
+{"level":30,"time":"2026-03-21T07:12:09.248Z","msg":"[app/main] Preload - time: 428"}
+{"level":30,"time":"2026-03-21T07:12:09.248Z","msg":"[app/main] WebSocket connect - time: 1096"}
+{"level":30,"time":"2026-03-21T07:12:09.248Z","msg":"[app/main] Processed count: 10"}
+{"level":30,"time":"2026-03-21T07:12:09.248Z","msg":"[app/main] Messages per second: 8.[REDACTED]"}
+{"level":30,"time":"2026-03-21T07:12:09.248Z","msg":"[app/main] Top 10 queries by cumulative duration (ms) over last 2635ms during 'App Load': createOrUpdateItem: cumulative 177.8 | average: 7.11 | max: 16.05 | count: 25 ||| insertJob: cumulative 19.1 | average: 6.37 | max: 6.65 | count: 3 ||| saveMessages: cumulative 15.97 | average: 15.97 | max: 15.97 | count: 1 ||| dequeueOldestSyncTasks: cumulative 14.42 | average: 7.21 | max: 7.39 | count: 2 ||| removeUnprocessed: cumulative 13.64 | average: 6.82 | max: 6.95 | count: 2 ||| getAllKyberPreKeys: cumulative 10.89 | average: 10.89 | max: 10.89 | count: 1 ||| commitDecryptResult: cumulative 8.69 | average: 8.69 | max: 8.69 | count: 1 ||| updateConversations: cumulative 8.29 | average: 4.14 | max: 8.18 | count: 2 ||| getKnownMessageAttachments: cumulative 8.06 | average: 8.06 | max: 8.06 | count: 1 ||| createOrUpdateSignedPreKey: cumulative 7.33 | average: 7.33 | max: 7.33 | count: 1; Total cumulative duration of all SQL queries during this epoch: 353.29ms"}
+{"level":30,"time":"2026-03-21T07:12:11.481Z","msg":"[SystemTrayService] System tray service: setting unread count to 2"}
+{"level":30,"time":"2026-03-21T07:12:11.481Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2026-03-21T07:12:13.724Z","msg":"[SystemTrayService] System tray service: setting unread count to 0"}
+{"level":30,"time":"2026-03-21T07:12:13.724Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2026-03-21T07:12:27.615Z","msg":"[app/main] close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2026-03-21T07:12:27.616Z","msg":"[app/main] maybeRequestCloseConfirmation: Checking to see if close confirmation is needed"}
+{"level":30,"time":"2026-03-21T07:12:27.618Z","msg":"[app/main] maybeRequestCloseConfirmation: Response received"}
+{"level":30,"time":"2026-03-21T07:12:27.618Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2026-03-21T07:12:27.619Z","msg":"[app/main] requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2026-03-21T07:12:27.655Z","msg":"[app/main] requestShutdown: Response received"}
+{"level":30,"time":"2026-03-21T07:12:27.681Z","msg":"[app/main] before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false,\"hasEventBeenPrevented\":false,\"windowCount\":1,\"mainWindowExists\":true,\"mainWindowIsFullScreen\":false}"}
+{"level":30,"time":"2026-03-21T07:12:27.681Z","msg":"[SystemTrayService] System tray service: markShouldQuit"}
+{"level":30,"time":"2026-03-21T07:12:27.681Z","msg":"[app/main] close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2026-03-21T07:12:27.700Z","msg":"[app/main] main window closed event"}
+{"level":30,"time":"2026-03-21T07:12:27.700Z","msg":"[SystemTrayService] System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2026-03-21T07:12:27.700Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2026-03-21T07:12:27.700Z","msg":"[app/main] will-quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}
+{"level":30,"time":"2026-03-21T07:12:27.700Z","msg":"[app/main] quit event {\"hasEventBeenPrevented\":false,\"windowCount\":0,\"mainWindowExists\":false}"}

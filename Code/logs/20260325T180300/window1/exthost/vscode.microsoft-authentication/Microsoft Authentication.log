@@ -1,0 +1,23 @@
+2026-03-25 18:03:44.446 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-25 18:03:44.456 [info] [getSessions] [all] starting
+2026-03-25 18:03:44.456 [info] [getSessions] [all] returned 0 session(s)
+2026-03-25 18:03:44.456 [info] [getSessions] [all] starting
+2026-03-25 18:03:44.456 [info] [getSessions] [all] returned 0 session(s)
+2026-03-25 18:03:44.456 [info] [getSessions] [all] starting
+2026-03-25 18:03:44.456 [info] [getSessions] [all] returned 0 session(s)
+2026-03-25 18:03:44.458 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-25 18:03:44.458 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-25 18:03:44.461 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-25 18:04:00.789 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-25 18:04:00.790 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-25 18:29:46.186 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-25 18:29:46.248 [info] [getSessions] [all] starting
+2026-03-25 18:29:46.248 [info] [getSessions] [all] returned 0 session(s)
+2026-03-25 18:29:46.248 [info] [getSessions] [all] starting
+2026-03-25 18:29:46.248 [info] [getSessions] [all] returned 0 session(s)
+2026-03-25 18:29:46.248 [info] [getSessions] [all] starting
+2026-03-25 18:29:46.248 [info] [getSessions] [all] returned 0 session(s)
+2026-03-25 18:29:46.894 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-03-25 18:29:46.894 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-03-25 18:29:46.939 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-03-25 18:29:48.793 [info] Microsoft Authentication is deactivating...

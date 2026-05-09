@@ -1,0 +1,164 @@
+2026-04-22 14:27:54.453 [info] Marked extension as removed anthropic.claude-code-2.1.83-linux-x64
+2026-04-22 14:27:54.453 [info] Marked extension as removed google.gemini-cli-vscode-ide-companion-0.20.0
+2026-04-22 14:27:54.453 [info] Marked extension as removed google.geminicodeassist-2.75.0
+2026-04-22 14:27:54.453 [info] Marked extension as removed skyran.js-jsx-snippets-12.0.1
+2026-04-22 14:27:54.622 [info] Deleted marked for removal extension from disk google.gemini-cli-vscode-ide-companion /home/ankur/.vscode/extensions/google.gemini-cli-vscode-ide-companion-0.20.0
+2026-04-22 14:27:54.624 [info] Deleted marked for removal extension from disk skyran.js-jsx-snippets /home/ankur/.vscode/extensions/skyran.js-jsx-snippets-12.0.1
+2026-04-22 14:27:54.625 [info] Deleted marked for removal extension from disk anthropic.claude-code /home/ankur/.vscode/extensions/anthropic.claude-code-2.1.83-linux-x64
+2026-04-22 14:27:54.625 [info] Deleted marked for removal extension from disk google.geminicodeassist /home/ankur/.vscode/extensions/google.geminicodeassist-2.75.0
+2026-04-22 14:28:09.761 [info] Uninstalling extension from the profile: yandeu.five-server@0.3.11 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:09.823 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/yandeu.five-server-0.3.11/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/yandeu.five-server-0.3.11/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:28:09.823 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/yandeu.five-server-0.3.11
+2026-04-22 14:28:16.792 [info] Uninstalling extension from the profile: redhat.java@1.54.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:16.852 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/redhat.java-1.54.0-linux-x64/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/redhat.java-1.54.0-linux-x64/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:28:16.852 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/redhat.java-1.54.0-linux-x64
+2026-04-22 14:28:19.155 [info] Successfully uninstalled extension from the profile redhat.java@1.54.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:19.422 [info] Successfully uninstalled extension from the profile yandeu.five-server@0.3.11 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:22.648 [info] Uninstalling extension from the profile: xabikos.javascriptsnippets@1.8.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:22.701 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/xabikos.javascriptsnippets-1.8.0/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/xabikos.javascriptsnippets-1.8.0/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:28:22.701 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/xabikos.javascriptsnippets-1.8.0
+2026-04-22 14:28:23.498 [info] Successfully uninstalled extension from the profile xabikos.javascriptsnippets@1.8.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:26.929 [info] Getting Manifest... xabikos.javascriptsnippets
+2026-04-22 14:28:28.674 [info] Installing extension: xabikos.javascriptsnippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"productVersion":{"version":"1.116.0","date":"2026-04-15T00:28:13Z"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-04-22 14:28:31.113 [info] Extension signature verification result for xabikos.javascriptsnippets: Success. Internal Code: 0. Executed: true. Duration: 590ms.
+2026-04-22 14:28:31.129 [info] Extracted extension to file:///home/ankur/.vscode/extensions/xabikos.javascriptsnippets-1.8.0: xabikos.javascriptsnippets
+2026-04-22 14:28:31.138 [info] Renamed to /home/ankur/.vscode/extensions/xabikos.javascriptsnippets-1.8.0
+2026-04-22 14:28:31.182 [info] Extension installed successfully: xabikos.javascriptsnippets vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:43.986 [info] Uninstalling extension from the profile: vscjava.migrate-java-to-azure@1.16.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:44.045 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.16.0-linux-x64/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.16.0-linux-x64/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:28:44.045 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.16.0-linux-x64
+2026-04-22 14:28:44.632 [info] Successfully uninstalled extension from the profile vscjava.migrate-java-to-azure@1.16.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:46.392 [info] Getting Manifest... vscjava.migrate-java-to-azure
+2026-04-22 14:28:51.122 [info] Installing extension: vscjava.migrate-java-to-azure {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"productVersion":{"version":"1.116.0","date":"2026-04-15T00:28:13Z"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ankur/.vscode/extensions/extensions.json","path":"/home/ankur/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-04-22 14:28:55.241 [info] Extension signature verification result for vscjava.migrate-java-to-azure: Success. Internal Code: 0. Executed: true. Duration: 700ms.
+2026-04-22 14:28:55.772 [info] Uninstalling extension from the profile: mark-wiemer.vscode-autohotkey-plus-plus@6.7.3 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:55.820 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/mark-wiemer.vscode-autohotkey-plus-plus-6.7.3/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/mark-wiemer.vscode-autohotkey-plus-plus-6.7.3/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:28:55.820 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/mark-wiemer.vscode-autohotkey-plus-plus-6.7.3
+2026-04-22 14:28:56.304 [info] Successfully uninstalled extension from the profile mark-wiemer.vscode-autohotkey-plus-plus@6.7.3 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:56.324 [info] Extracted extension to file:///home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.16.0-linux-x64: vscjava.migrate-java-to-azure
+2026-04-22 14:28:56.482 [info] Renamed to /home/ankur/.vscode/extensions/vscjava.migrate-java-to-azure-1.16.0-linux-x64
+2026-04-22 14:28:56.517 [info] Extension installed successfully: vscjava.migrate-java-to-azure vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:58.287 [info] Uninstalling extension from the profile: vscjava.vscode-java-debug@0.59.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:28:58.333 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:28:58.333 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.vscode-java-debug-0.59.0
+2026-04-22 14:28:58.906 [info] Successfully uninstalled extension from the profile vscjava.vscode-java-debug@0.59.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:00.269 [info] Uninstalling extension from the profile: vscjava.vscode-java-dependency@0.27.2 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:00.327 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.vscode-java-dependency-0.27.2/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.vscode-java-dependency-0.27.2/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:29:00.328 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.vscode-java-dependency-0.27.2
+2026-04-22 14:29:02.347 [info] Uninstalling extension from the profile: vscjava.vscode-java-pack@0.30.5 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:02.348 [info] Extensions is already requested to uninstall vscjava.vscode-java-dependency
+2026-04-22 14:29:02.348 [info] Uninstalling extension from the profile: vscjava.vscode-java-test@0.45.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:02.348 [info] Uninstalling extension from the profile: vscjava.vscode-maven@0.45.2 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:02.395 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.vscode-java-pack-0.30.5/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.vscode-java-pack-0.30.5/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:29:02.395 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.vscode-java-pack-0.30.5
+2026-04-22 14:29:02.408 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.vscode-java-test-0.45.0/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.vscode-java-test-0.45.0/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:29:02.408 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.vscode-java-test-0.45.0
+2026-04-22 14:29:02.420 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.vscode-maven-0.45.2/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.vscode-maven-0.45.2/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:29:02.420 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.vscode-maven-0.45.2
+2026-04-22 14:29:05.539 [info] Successfully uninstalled extension from the profile vscjava.vscode-java-pack@0.30.5 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:05.539 [info] Successfully uninstalled extension from the profile vscjava.vscode-java-test@0.45.0 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:05.539 [info] Successfully uninstalled extension from the profile vscjava.vscode-maven@0.45.2 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:05.540 [info] Successfully uninstalled extension from the profile vscjava.vscode-java-dependency@0.27.2 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:16.120 [info] Uninstalling extension from the profile: vscjava.vscode-java-upgrade@2.1.1 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json
+2026-04-22 14:29:16.185 [error] Error: Unable to read file '/home/ankur/.vscode/extensions/vscjava.vscode-java-upgrade-2.1.1/package.json' (Error: Unable to resolve nonexistent file '/home/ankur/.vscode/extensions/vscjava.vscode-java-upgrade-2.1.1/package.json')
+    at Ri.restoreReadError (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109784)
+    at Ri.doReadFileStream (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:109567)
+    at async Ri.doReadFile (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:108831)
+    at async Ys.scanExtensionManifest (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:54254)
+    at async Ys.scanExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:52453)
+    at async Oa.scanExistingExtension (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:42578)
+    at async Ic.scanUserExtensionAtLocation (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:85031)
+    at async Promise.all (index 0)
+    at async Ep.onDidRemoveExtensions (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:450:70401)
+2026-04-22 14:29:16.185 [info] Extension not found at the location file:///home/ankur/.vscode/extensions/vscjava.vscode-java-upgrade-2.1.1
+2026-04-22 14:29:17.353 [info] Successfully uninstalled extension from the profile vscjava.vscode-java-upgrade@2.1.1 vscode-userdata:/home/ankur/.vscode/extensions/extensions.json

@@ -1,0 +1,5 @@
+2026-04-22 14:27:53.054 [error] Invalid path provided: /home/ankur/portfolio, ENOENT: no such file or directory, stat '/home/ankur/portfolio'
+2026-04-22 14:27:53.126 [info] update#setState idle
+2026-04-22 14:28:23.128 [info] update#setState checking for updates
+2026-04-22 14:28:24.106 [info] update#setState idle
+2026-04-22 14:29:27.764 [info] Extension host with pid 28821 exited with code: 0, signal: unknown.

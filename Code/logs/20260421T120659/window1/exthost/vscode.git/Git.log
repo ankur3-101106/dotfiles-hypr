@@ -1,0 +1,100 @@
+2026-04-21 12:07:03.464 [info] [main] Log level: Info
+2026-04-21 12:07:03.464 [info] [main] Validating found git in: "git"
+2026-04-21 12:07:03.464 [info] [main] Using git "2.53.0" from "git"
+2026-04-21 12:07:03.464 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-21 12:07:03.464 [info] > git rev-parse --show-toplevel [3ms]
+2026-04-21 12:07:03.464 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-04-21 12:07:03.464 [info] [Model][openRepository] Opened repository (path): /home/ankur/portfolio
+2026-04-21 12:07:03.464 [info] [Model][openRepository] Opened repository (real path): /home/ankur/portfolio
+2026-04-21 12:07:03.464 [info] [Model][openRepository] Opened repository (kind): repository
+2026-04-21 12:07:03.464 [info] > git rev-parse --show-toplevel [18ms]
+2026-04-21 12:07:03.464 [info] > git config --get commit.template [21ms]
+2026-04-21 12:07:03.480 [info] > git rev-parse --show-toplevel [883ms]
+2026-04-21 12:07:03.586 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [122ms]
+2026-04-21 12:07:03.629 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:07:03.632 [info] > git rev-parse --show-toplevel [48ms]
+2026-04-21 12:07:03.682 [info] > git rev-parse refs/remotes/origin/main [53ms]
+2026-04-21 12:07:03.695 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-04-21 12:07:03.696 [info] > git rev-parse --show-toplevel [29ms]
+2026-04-21 12:07:03.698 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-21 12:07:03.704 [info] > git status -z -uall [17ms]
+2026-04-21 12:07:03.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-04-21 12:07:03.736 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2026-04-21 12:07:03.736 [warning] [Git][config] git config failed: Failed to execute git
+2026-04-21 12:07:03.739 [info] > git config --get commit.template [14ms]
+2026-04-21 12:07:03.743 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2026-04-21 12:07:03.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-04-21 12:07:03.746 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2026-04-21 12:07:03.752 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:07:03.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2026-04-21 12:07:03.756 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-04-21 12:07:03.762 [info] > git config --add --local branch.main.vscode-merge-base origin/main [7ms]
+2026-04-21 12:07:03.763 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] (cancelled)
+2026-04-21 12:07:03.767 [info] > git status -z -uall [8ms] (cancelled)
+2026-04-21 12:07:03.776 [info] > git config --get commit.template [9ms]
+2026-04-21 12:07:03.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-04-21 12:07:03.788 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:07:03.789 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2026-04-21 12:07:03.795 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-21 12:07:03.801 [info] > git status -z -uall [10ms]
+2026-04-21 12:07:03.808 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2026-04-21 12:07:03.812 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2026-04-21 12:07:03.815 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 80afbfbecd2010c0948003c5de3d8468511ac6dc...refs/remotes/origin/main -- [4ms]
+2026-04-21 12:07:03.816 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 80afbfbecd2010c0948003c5de3d8468511ac6dc...refs/remotes/origin/main -- [1ms]
+2026-04-21 12:07:04.846 [info] > git config --get commit.template [7ms]
+2026-04-21 12:07:04.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-21 12:07:04.853 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:07:04.855 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-04-21 12:07:04.867 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-04-21 12:07:04.875 [info] > git status -z -uall [15ms]
+2026-04-21 12:07:21.492 [info] > git check-ignore -v -z --stdin [39ms]
+2026-04-21 12:07:29.919 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-21 12:07:31.286 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:07:32.435 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:07:32.444 [info] > git show --textconv :docs/SE/u6.mdx [3ms]
+2026-04-21 12:07:32.445 [info] > git ls-files --stage -- docs/SE/u6.mdx [1ms]
+2026-04-21 12:07:32.449 [info] > git cat-file -s 175f8970d1cf5705d5f14fcb62ab69ef6b3bc595 [1ms]
+2026-04-21 12:07:48.516 [info] > git config --get commit.template [15ms]
+2026-04-21 12:07:48.530 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-04-21 12:07:48.534 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:07:48.540 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2026-04-21 12:07:48.549 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-21 12:07:48.554 [info] > git status -z -uall [10ms]
+2026-04-21 12:09:57.727 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:10:29.098 [info] > git config --get commit.template [6ms]
+2026-04-21 12:10:29.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-21 12:10:29.102 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:10:29.103 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-04-21 12:10:29.113 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-21 12:10:29.116 [info] > git status -z -uall [8ms]
+2026-04-21 12:10:31.454 [info] > git check-ignore -v -z --stdin [0ms]
+2026-04-21 12:10:32.917 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:10:36.323 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:10:37.929 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:10:39.386 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-21 12:10:44.206 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-21 12:11:01.207 [info] > git config --get commit.template [9ms]
+2026-04-21 12:11:01.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-04-21 12:11:01.213 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:11:01.215 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-04-21 12:11:01.225 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-04-21 12:11:01.228 [info] > git status -z -uall [9ms]
+2026-04-21 12:11:02.173 [info] > git blame --root --incremental 80afbfbecd2010c0948003c5de3d8468511ac6dc -- docs/SE/u6.mdx [3ms]
+2026-04-21 12:11:06.250 [info] > git config --get commit.template [9ms]
+2026-04-21 12:11:06.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-21 12:11:06.257 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:11:06.259 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-04-21 12:11:06.273 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-21 12:11:06.278 [info] > git status -z -uall [13ms]
+2026-04-21 12:11:13.972 [info] > git config --get commit.template [8ms]
+2026-04-21 12:11:13.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-04-21 12:11:13.979 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:11:13.981 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-04-21 12:11:13.992 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-21 12:11:13.996 [info] > git status -z -uall [9ms]
+2026-04-21 12:11:38.222 [info] > git config --get commit.template [1ms]
+2026-04-21 12:11:38.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-21 12:11:38.237 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ankur/portfolio/.git/refs/remotes/origin/main'
+2026-04-21 12:11:38.238 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-04-21 12:11:38.253 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-21 12:11:38.260 [info] > git status -z -uall [15ms]
