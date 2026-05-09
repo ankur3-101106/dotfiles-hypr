@@ -1,4 +1,0 @@
-2026/05/02-14:33:42.462 2ea5 Reusing MANIFEST /home/ankur/.config/whatsdesk/Session Storage/MANIFEST-000001
-2026/05/02-14:33:42.462 2ea5 Recovering log #3
-2026/05/02-14:33:42.462 2ea5 (ignoring error) /home/ankur/.config/whatsdesk/Session Storage/000003.log: dropping 10259 bytes; Corruption: checksum mismatch
-2026/05/02-14:33:42.462 2ea5 Reusing old log /home/ankur/.config/whatsdesk/Session Storage/000003.log 
